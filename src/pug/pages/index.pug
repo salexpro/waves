@@ -1,4 +1,7 @@
 extends ../_layout
 
+block const
+    - const page = '/'
 block content
-    h1 Hello world!
+    +promo()(class="promo--main")
+    include ../sections/_main

@@ -1,0 +1,56 @@
+.main{
+    display: grid;
+    grid-template-columns: auto 300px;
+    grid-gap: 32px;
+    margin-top: 36px;
+    margin-bottom: 50px;
+    &_header{
+        font-size: 35px;
+        letter-spacing: -0.3px;
+        line-height: 0.95;
+        margin-bottom: 38px;
+        span{
+            color: $primary-color;
+        }
+    }
+    &_sections{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 20px;
+        margin-top: 34px;
+    }
+    &_section{
+        position: relative;
+        &--practice{
+            .main_section_header{
+                left: 50%;
+                transform: translateX(-50%);
+            }
+        }
+        &_header{
+            position: absolute;
+            top: 10%;
+            left: 27%;
+            font-size: 34px;
+            color: $white;
+            line-height: 1.02;
+            margin: 0;
+        }
+        .button{
+            position: absolute;
+            right: -12px;
+            bottom: -12px;
+        }
+    }
+    &_aside{
+        padding-left: 28px;
+        border-left: 1px solid #e8e8e8;
+    }
+    &_giveaway{
+        padding-bottom: 20px;
+        border-bottom: 1px solid #e8e8e8;
+    }
+    &_sponsor{
+        padding-top: 20px;
+    }
+}

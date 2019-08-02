@@ -1,1 +1,29 @@
 header.header
+    .grid-container.header_inner
+        a(href="/")
+            img(src="./assets/img/logo.svg", alt="Waves / Forklog")
+        ul.header_menu
+            -
+                const menu = [{
+                    link: '/',
+                    label: 'Главная',
+                },
+                {
+                    link: '#',
+                    label: 'Теория'
+                },
+                {
+                    link: '#',
+                    label: 'Практика'
+                }]
+            each item in menu
+                li
+                    a(href=item.link class=item.link.includes(page) || item.active ? 'is_active' : false)
+                        =item.label
+        +social
+        .header_buttons
+            a.button.hollow(href="#")
+                | Подписка
+            a.button.hollow(href="#")
+                | Все спецпроекты
+

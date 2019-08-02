@@ -1,0 +1,8 @@
+.promo{
+    height: 295px;
+    background-position: center;
+    background-size: cover;
+    &--main{
+        background-image: url(../assets/img/promos/main.jpg);
+    }
+}

@@ -4,5 +4,39 @@ button {
 }
 
 .button{
-    
+    font-weight: 500;
+    border: 0;
+    transition: 250ms;
+    &:hover, &:focus{
+        background: linear-gradient(180deg, #6A9CFF 0%, #3C7DFF 53.12%, #0053F9 100%);
+    }
+    &.hollow{
+        box-shadow: inset 0 0 0 1px $primary-color;
+        &:hover, &:focus{
+            box-shadow: 0 4px 10px rgba(51, 61, 126, 0.2), 0 2px 3px rgba(64, 69, 97, 0.3);            
+            
+            background-size: cover;
+            color: $white;
+            text-shadow: -1px 1px 0 #1e53bd;
+        }
+    }
+    &.large{
+        background-image: linear-gradient(to bottom, #6a9cff 0%, #3c7dff 53%, #0053f9 100%);
+        padding: 15px 20px;
+        width: 100%;
+        border-radius: 24px;
+    }
+    &.icon{
+        position: relative;
+        max-width: 190px;
+        svg{
+            position: absolute;
+            right: 18px;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+    }
+    &.secondary{
+        background-image: linear-gradient(to bottom, #ff00ff 0%, #e304e3 51%, #6e218d 99%, #6e218d 100%);
+    }
 }

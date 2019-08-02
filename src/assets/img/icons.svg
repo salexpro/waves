@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    
+    <symbol id="arr" viewBox="0 0 16.5 23.5">
+        <path fill="none" fill-rule="evenodd" stroke="rgb(255, 255, 255)" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="3px" d="M3.853,1.495 L13.492,11.449 L3.853,20.496 "/>
+    </symbol>
 </svg>

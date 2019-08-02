@@ -14,20 +14,35 @@ head
     meta(property='og:title', content=title)
     meta(property='og:description', content=descr)
     meta(property='og:type', content='website')
-    meta(property='og:image', content=`https://${domain}/assets/favicon/apple-touch-icon.png`)
-    //- meta(property='og:image:width', content='1200')
-    //- meta(property='og:image:height', content='630')
+    meta(property='og:image', content=`https://${domain}/assets/img/opengraph.jpg`)
+    meta(property='og:image:width', content='1200')
+    meta(property='og:image:height', content='1200')
 
     //- Favicon (realfavicongenerator.net)
+    link(rel="apple-touch-icon", sizes="180x180", href="/assets/favicon/apple-touch-icon.png")
+    link(rel="icon", type="image/png", sizes="32x32", href="/assets/favicon/favicon-32x32.png")
+    link(rel="icon", type="image/png", sizes="16x16", href="/assets/favicon/favicon-16x16.png")
+    link(rel="manifest", href="/assets/favicon/site.webmanifest")
+    link(rel="mask-icon", href="/assets/favicon/safari-pinned-tab.svg", color="#4f089d")
+    meta(name="msapplication-TileColor", content="#4f089d")
+    meta(name="msapplication-config", content="/assets/favicon/browserconfig.xml")
+    meta(name="theme-color", content="#ffffff")
 
     //- Splashscreen
-    link(rel='apple-touch-startup-image', href='/assets/splash/launch-640x1136.jpg', media='(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)')
-    link(rel='apple-touch-startup-image', href='/assets/splash/launch-750x1294.jpg', media='(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)')
-    link(rel='apple-touch-startup-image', href='/assets/splash/launch-1242x2148.jpg', media='(device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)')
-    link(rel='apple-touch-startup-image', href='/assets/splash/launch-1125x2436.jpg', media='(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)')
-    link(rel='apple-touch-startup-image', href='/assets/splash/launch-1536x2048.jpg', media='(min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait)')
-    link(rel='apple-touch-startup-image', href='/assets/splash/launch-1668x2224.jpg', media='(min-device-width: 834px) and (max-device-width: 834px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait)')
-    link(rel='apple-touch-startup-image', href='/assets/splash/launch-2048x2732.jpg', media='(min-device-width: 1024px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait)')
+    //- link(rel='apple-touch-startup-image', href='/assets/splash/launch-640x1136.jpg', media='(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)')
+    //- link(rel='apple-touch-startup-image', href='/assets/splash/launch-750x1294.jpg', media='(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)')
+    //- link(rel='apple-touch-startup-image', href='/assets/splash/launch-1242x2148.jpg', media='(device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)')
+    //- link(rel='apple-touch-startup-image', href='/assets/splash/launch-1125x2436.jpg', media='(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)')
+    //- link(rel='apple-touch-startup-image', href='/assets/splash/launch-1536x2048.jpg', media='(min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait)')
+    //- link(rel='apple-touch-startup-image', href='/assets/splash/launch-1668x2224.jpg', media='(min-device-width: 834px) and (max-device-width: 834px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait)')
+    //- link(rel='apple-touch-startup-image', href='/assets/splash/launch-2048x2732.jpg', media='(min-device-width: 1024px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait)')
     
     //- Styles
+    // Code snippet to speed up Google Fonts rendering: googlefonts.3perf.com
+    link(rel='dns-prefetch', href='https://fonts.gstatic.com')
+    link(rel='preconnect', href='https://fonts.gstatic.com', crossorigin='anonymous')
+    link(rel='preload', href='https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap&subset=cyrillic', as='fetch', crossorigin='anonymous')
+    script(type='text/javascript').
+        !function(e,n,t){"use strict";var o="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap&subset=cyrillic",r="__3perf_googleFonts_29f2a";function c(e){(n.head||n.body).appendChild(e)}function a(){var e=n.createElement("link");e.href=o,e.rel="stylesheet",c(e)}function f(e){if(!n.getElementById(r)){var t=n.createElement("style");t.id=r,c(t)}n.getElementById(r).innerHTML=e}e.FontFace&&e.FontFace.prototype.hasOwnProperty("display")?(t[r]&&f(t[r]),fetch(o).then(function(e){return e.text()}).then(function(e){return e.replace(/@font-face {/g,"@font-face{font-display:swap;")}).then(function(e){return t[r]=e}).then(f).catch(a)):a()}(window,document,localStorage);
+    // End of code snippet for Google Fonts
     link(rel="stylesheet", href="./css/app.css")

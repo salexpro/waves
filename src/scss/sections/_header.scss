@@ -1,3 +1,35 @@
 .header{
-    
+    box-shadow: 0 4px 10px rgba(51, 61, 126, 0.2), 0 2px 3px rgba(64, 69, 97, 0.3);
+    position: relative;
+    &_inner{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 58px;
+    }
+    &_menu{
+        font-size: 13px;
+        display: flex;
+        list-style: none;
+        margin: 0;
+        height: 100%;
+        a{
+            display: flex;
+            align-items: center;
+            height: 58px;
+            padding: 0 2px;
+            margin: 0 14px;
+            &:hover, &:focus, &.is_active{
+                color: #e9a520;
+            }
+            &.is_active{
+                box-shadow: inset 0 -2px 0 #e9a520;
+            }
+        }
+    }
+    &_buttons{
+        .button + .button{
+            margin-left: 10px;
+        }
+    }
 }
