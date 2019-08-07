@@ -1,0 +1,29 @@
+.giveaway{
+    &_img{
+        // width: 100vw;
+        margin-left: calc((100vw - 1000px) / -2);
+        margin-right: calc((100vw - 1000px) / -2 - 360px);
+        text-align: center;
+        img{
+            max-width: calc(1000px + 3.5%);
+        }
+        + p{
+            padding-left: 39%;
+            margin-top: -6%;
+        }
+    }
+    &_token{
+        display: grid;
+        grid-template-columns: 38px minmax(100px, 470px);
+        grid-gap: 12px;
+        align-items: center;
+        margin: 27px 0;
+        &_text{
+            margin: 0;
+            font-size: 13px;
+        }
+        svg{
+            display: block;
+        }
+    }
+}

@@ -37,8 +37,43 @@ html, body{
 a {
     transition: color 250ms;
     font-weight: 500;
+    &.secondary{
+        color: $secondary-color;
+        &:hover, &:focus{
+            color: scale-color($secondary-color, $lightness: -14%);
+        }
+    }
 }
 
 .js-off-canvas-overlay{
     -webkit-tap-highlight-color: transparent;
+}
+
+.h1{
+    letter-spacing: -0.45px;
+    text-shadow: -3px 0 0 #e9a520;
+    color: $primary-color;
+}
+
+h2, .h2{
+    display: table;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #fb8600;
+}
+
+h3, .h3{
+    font-weight: 300;
+}
+
+cite{
+    display: inline;
+    font-weight: 700;
+    font-style: normal;
+    &::before{
+        font-weight: 300;
+    }
+}
+
+dd{
+    margin-bottom: 1em;
 }

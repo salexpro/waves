@@ -1,0 +1,18 @@
+.sponsor{
+    grid-area: sponsor;
+    border-radius: 5px;
+    background-image: linear-gradient(to top, #2d0096 0%, #0850e1 100%);
+    margin: 0 -22px;
+    padding: 1em 22px;
+    display: grid;
+    grid-template-columns: auto 330px;
+    grid-gap: 30px;
+    color: $white;
+    &_info{
+        margin: 0;
+    }
+    .button{
+        place-self: center;
+        max-width: 240px;
+    }
+}

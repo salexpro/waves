@@ -323,6 +323,126 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/src/assets/img/blockchain.png": {
+		"ft": 32768,
+		"iS": 17031,
+		"oA": 0,
+		"oAP": "/build/assets/img/blockchain.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/src/assets/img/blockchain@2x.png": {
+		"ft": 32768,
+		"iS": 35993,
+		"oA": 0,
+		"oAP": "/build/assets/img/blockchain@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/src/assets/img/family.jpg": {
+		"ft": 16384,
+		"iS": 166376,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/assets/img/family.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/src/assets/img/family@2x.jpg": {
+		"ft": 16384,
+		"iS": 418138,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/assets/img/family@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/src/assets/img/finger_tap.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/assets/img/finger_tap.svg",
+		"oF": 0,
+		"opt": 1,
+		"plM": 1103269715967,
+		"prP": 0
+		},
+	"/src/assets/img/first_site.png": {
+		"ft": 32768,
+		"iS": 12865,
+		"oA": 0,
+		"oAP": "/build/assets/img/first_site.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/src/assets/img/first_site@2x.png": {
+		"ft": 32768,
+		"iS": 26336,
+		"oA": 0,
+		"oAP": "/build/assets/img/first_site@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/src/assets/img/forecasts.png": {
+		"ft": 32768,
+		"iS": 42046,
+		"oA": 0,
+		"oAP": "/build/assets/img/forecasts.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/src/assets/img/forecasts@2x.png": {
+		"ft": 32768,
+		"iS": 91099,
+		"oA": 0,
+		"oAP": "/build/assets/img/forecasts@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/src/assets/img/giveaway.png": {
+		"ft": 32768,
+		"iS": 18015,
+		"oA": 0,
+		"oAP": "/build/assets/img/giveaway.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/src/assets/img/giveaway@2x.png": {
+		"ft": 32768,
+		"iS": 39355,
+		"oA": 0,
+		"oAP": "/build/assets/img/giveaway@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"/src/assets/img/icons.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -332,6 +452,28 @@
 		"opt": 1,
 		"plM": 1107547906047,
 		"prP": 0
+		},
+	"/src/assets/img/iot.png": {
+		"ft": 32768,
+		"iS": 21799,
+		"oA": 0,
+		"oAP": "/build/assets/img/iot.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/src/assets/img/iot@2x.png": {
+		"ft": 32768,
+		"iS": 50828,
+		"oA": 0,
+		"oAP": "/build/assets/img/iot@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
 		},
 	"/src/assets/img/ledger.png": {
 		"ft": 32768,
@@ -385,6 +527,28 @@
 		"plM": 1103269715967,
 		"prP": 0
 		},
+	"/src/assets/img/old_website.jpg": {
+		"ft": 16384,
+		"iS": 108818,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/assets/img/old_website.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/src/assets/img/old_website@2x.jpg": {
+		"ft": 16384,
+		"iS": 249350,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/assets/img/old_website@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
 	"/src/assets/img/opengraph.jpg": {
 		"ft": 16384,
 		"iS": 492334,
@@ -405,6 +569,171 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
+		"q": 100
+		},
+	"/src/assets/img/promos/main@2x.jpg": {
+		"ft": 16384,
+		"iS": 649909,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/assets/img/promos/main@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/src/assets/img/promos/theory.jpg": {
+		"ft": 16384,
+		"iS": 76179,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/assets/img/promos/theory.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/src/assets/img/promos/theory@2x.jpg": {
+		"ft": 16384,
+		"iS": 189790,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/assets/img/promos/theory@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/src/assets/img/promos/theory_hover.jpg": {
+		"ft": 16384,
+		"iS": 66327,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/assets/img/promos/theory_hover.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/src/assets/img/promos/theory_hover@2x.jpg": {
+		"ft": 16384,
+		"iS": 178694,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/assets/img/promos/theory_hover@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/src/assets/img/semantic_web.jpg": {
+		"ft": 16384,
+		"iS": 64997,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/assets/img/semantic_web.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/src/assets/img/semantic_web@2x.jpg": {
+		"ft": 16384,
+		"iS": 164242,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/assets/img/semantic_web@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/src/assets/img/spaceman.png": {
+		"ft": 32768,
+		"iS": 30656,
+		"oA": 0,
+		"oAP": "/build/assets/img/spaceman.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/src/assets/img/spaceman@2x.png": {
+		"ft": 32768,
+		"iS": 71357,
+		"oA": 0,
+		"oAP": "/build/assets/img/spaceman@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/src/assets/img/subject_predicate_object.png": {
+		"ft": 32768,
+		"iS": 4830,
+		"oA": 0,
+		"oAP": "/build/assets/img/subject_predicate_object.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/src/assets/img/subject_predicate_object@2x.png": {
+		"ft": 32768,
+		"iS": 8303,
+		"oA": 0,
+		"oAP": "/build/assets/img/subject_predicate_object@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/src/assets/img/tim.jpg": {
+		"ft": 16384,
+		"iS": 28551,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/assets/img/tim.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/src/assets/img/tim@2x.jpg": {
+		"ft": 16384,
+		"iS": 95503,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/assets/img/tim@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/src/assets/img/unicorns.png": {
+		"ft": 32768,
+		"iS": 9920,
+		"oA": 0,
+		"oAP": "/build/assets/img/unicorns.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/src/assets/img/unicorns@2x.png": {
+		"ft": 32768,
+		"iS": 21969,
+		"oA": 0,
+		"oAP": "/build/assets/img/unicorns@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
 		"q": 100
 		},
 	"/src/CNAME": {
@@ -450,7 +779,7 @@
 		"ft": 64,
 		"ma": 1,
 		"mi": 1,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/build/js/lib/foundation-explicit-pieces.min.js",
 		"oF": 0,
 		"sC": 3,
@@ -546,6 +875,16 @@
 		"oF": 0,
 		"oS": 0
 		},
+	"/src/pug/pages/theory.pug": {
+		"cB": 1,
+		"cOD": 0,
+		"ft": 512,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/build/theory.html",
+		"oF": 0,
+		"oS": 0
+		},
 	"/src/pug/sections/_footer.pug": {
 		"cB": 1,
 		"cOD": 0,
@@ -573,6 +912,76 @@
 		"hM": 0,
 		"oA": 1,
 		"oAP": "/build/_main.html",
+		"oF": 0,
+		"oS": 0
+		},
+	"/src/pug/sections/theory/_aside.pug": {
+		"cB": 1,
+		"cOD": 0,
+		"ft": 512,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/build/_aside.html",
+		"oF": 0,
+		"oS": 0
+		},
+	"/src/pug/sections/theory/_conclusion.pug": {
+		"cB": 1,
+		"cOD": 0,
+		"ft": 512,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/build/_conclusion.html",
+		"oF": 0,
+		"oS": 0
+		},
+	"/src/pug/sections/theory/_forecasts.pug": {
+		"cB": 1,
+		"cOD": 0,
+		"ft": 512,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/build/_forecasts.html",
+		"oF": 0,
+		"oS": 0
+		},
+	"/src/pug/sections/theory/_giveaway.pug": {
+		"cB": 1,
+		"cOD": 0,
+		"ft": 512,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/build/_giveaway.html",
+		"oF": 0,
+		"oS": 0
+		},
+	"/src/pug/sections/theory/_history.pug": {
+		"cB": 1,
+		"cOD": 0,
+		"ft": 512,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/build/_history.html",
+		"oF": 0,
+		"oS": 0
+		},
+	"/src/pug/sections/theory/_nowadays.pug": {
+		"cB": 1,
+		"cOD": 0,
+		"ft": 512,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/build/_nowadays.html",
+		"oF": 0,
+		"oS": 0
+		},
+	"/src/pug/sections/theory/_sponsor.pug": {
+		"cB": 1,
+		"cOD": 0,
+		"ft": 512,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/build/_sponsor.html",
 		"oF": 0,
 		"oS": 0
 		},
@@ -667,6 +1076,19 @@
 		"oS": 3,
 		"uL": 1
 		},
+	"/src/scss/components/_quote.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "/build/scss/css/_quote.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
 	"/src/scss/components/_social.scss": {
 		"aP": 1,
 		"bl": 0,
@@ -689,6 +1111,19 @@
 		"ma": 1,
 		"oA": 1,
 		"oAP": "/build/scss/css/_footer.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"/src/scss/sections/_giveaway.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "/build/scss/css/_giveaway.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
@@ -731,6 +1166,32 @@
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
+		},
+	"/src/scss/sections/_sponsor.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "/build/scss/css/_sponsor.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"/src/scss/sections/_theory.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "/build/scss/css/_theory.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
 		}
 	},
 "hooks": [
@@ -743,7 +1204,7 @@
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "/src/assets/favicon/android-chrome-512x512.png",
 	"iconImageWasSetByUser": 1,
-	"lastBuiltDate": 586439499.57922399
+	"lastBuiltDate": 586914146.17660701
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,

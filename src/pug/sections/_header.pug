@@ -5,11 +5,11 @@ header.header
         ul.header_menu
             -
                 const menu = [{
-                    link: '/',
+                    link: './',
                     label: 'Главная',
                 },
                 {
-                    link: '#',
+                    link: 'theory.html',
                     label: 'Теория'
                 },
                 {
@@ -22,8 +22,8 @@ header.header
                         =item.label
         +social
         .header_buttons
-            a.button.hollow(href="#")
+            a.button.small.hollow(href="#")
                 | Подписка
-            a.button.hollow(href="#")
+            a.button.small.hollow(href="#")
                 | Все спецпроекты
 
