@@ -1,3 +1,27 @@
 .footer{
-    margin-top: auto;
+    grid-area: footer;
+    padding-top: 23px;
+    padding-bottom: 36px;
+    display: flex;
+    align-items: flex-end;
+    &_list{
+        margin: 0;
+        list-style: none;
+        line-height: 2.07;
+        font-size: 14px;
+    }
+}
+
+.up{
+    position: absolute;
+    bottom: 165px;
+    right: 34px;
+    width: 60px;
+    height: 60px;
+    background-image: url(../assets/img/up.svg);
+    background-size: cover;
+    &--practice{
+        right: 0;
+        bottom: 36px;
+    }
 }

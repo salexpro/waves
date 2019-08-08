@@ -1,20 +1,20 @@
-aside.theory_aside(data-sticky-container)
-    .theory_consists.sticky(data-sticky data-margin-top="0" data-anchor="stickyContent")
-        p.theory_aside_header
+aside.aside(data-sticky-container)
+    .aside_consists.sticky(data-sticky data-margin-top="0" data-anchor="stickyContent")
+        p.aside_header
             | Содержание
 
-        ul.theory_menu(data-accordion-menu)
+        ul.aside_menu(data-accordion-menu)
             li
                 a(href='#history') Краткая история сети
 
-                ul.theory_menu.nested(data-magellan data-animation-easing="swing")
+                ul.aside_menu.nested(data-magellan data-animation-easing="swing")
                     li
                         a(href='#historyWeb1') Web 1.0 
                     li
                         a(href='#historyWeb2') Web 2.0 
                     li
                         a(href='#historyWeb3') Web 3.0
-        ul.theory_menu(data-magellan data-animation-easing="swing")
+        ul.aside_menu(data-magellan data-animation-easing="swing")
             li
                 a(href='#nowadays') Web 3.0 сегодня
             li
@@ -22,7 +22,7 @@ aside.theory_aside(data-sticky-container)
             li
                 a(href='#conclusion') Заключение
 
-        ul.theory_menu.theory_menu--main
+        ul.aside_menu.aside_menu--main
             li
                 a(href="./")
                     | Главная

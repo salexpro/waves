@@ -279,6 +279,94 @@
 		"oAP": "/build/assets/fonts/.gitkeep",
 		"oF": 0
 		},
+	"/src/assets/img/beams.png": {
+		"ft": 32768,
+		"iS": 17029,
+		"oA": 0,
+		"oAP": "/build/assets/img/beams.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/src/assets/img/beams@2x.png": {
+		"ft": 32768,
+		"iS": 52501,
+		"oA": 0,
+		"oAP": "/build/assets/img/beams@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/src/assets/img/bg_cta.jpg": {
+		"ft": 16384,
+		"iS": 46143,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/assets/img/bg_cta.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/src/assets/img/bg_cta@2x.jpg": {
+		"ft": 16384,
+		"iS": 146860,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/assets/img/bg_cta@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/src/assets/img/bg_extension.jpg": {
+		"ft": 16384,
+		"iS": 167084,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/assets/img/bg_extension.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/src/assets/img/bg_extension@2x.jpg": {
+		"ft": 16384,
+		"iS": 545288,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/assets/img/bg_extension@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/src/assets/img/bg_giveaway_big.jpg": {
+		"ft": 16384,
+		"iS": 131284,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/assets/img/bg_giveaway_big.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/src/assets/img/bg_giveaway_big@2x.jpg": {
+		"ft": 16384,
+		"iS": 372853,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/assets/img/bg_giveaway_big@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
 	"/src/assets/img/bg_practice.png": {
 		"ft": 32768,
 		"iS": 10191,
@@ -339,6 +427,28 @@
 		"iS": 35993,
 		"oA": 0,
 		"oAP": "/build/assets/img/blockchain@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/src/assets/img/browser.png": {
+		"ft": 32768,
+		"iS": 22980,
+		"oA": 0,
+		"oAP": "/build/assets/img/browser.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/src/assets/img/browser@2x.png": {
+		"ft": 32768,
+		"iS": 53044,
+		"oA": 0,
+		"oAP": "/build/assets/img/browser@2x.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
@@ -582,6 +692,50 @@
 		"opt": 1,
 		"q": 100
 		},
+	"/src/assets/img/promos/practice.jpg": {
+		"ft": 16384,
+		"iS": 162141,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/assets/img/promos/practice.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/src/assets/img/promos/practice@2x.jpg": {
+		"ft": 16384,
+		"iS": 514006,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/assets/img/promos/practice@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/src/assets/img/promos/practice_hover.jpg": {
+		"ft": 16384,
+		"iS": 285443,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/assets/img/promos/practice_hover.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/src/assets/img/promos/practice_hover@2x.jpg": {
+		"ft": 16384,
+		"iS": 790975,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/assets/img/promos/practice_hover@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
 	"/src/assets/img/promos/theory.jpg": {
 		"ft": 16384,
 		"iS": 76179,
@@ -714,6 +868,50 @@
 		"opt": 1,
 		"q": 100
 		},
+	"/src/assets/img/unicorn.png": {
+		"ft": 32768,
+		"iS": 84561,
+		"oA": 0,
+		"oAP": "/build/assets/img/unicorn.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/src/assets/img/unicorn@2x.png": {
+		"ft": 32768,
+		"iS": 222135,
+		"oA": 0,
+		"oAP": "/build/assets/img/unicorn@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/src/assets/img/unicorn_globe.png": {
+		"ft": 32768,
+		"iS": 117865,
+		"oA": 0,
+		"oAP": "/build/assets/img/unicorn_globe.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/src/assets/img/unicorn_globe@2x.png": {
+		"ft": 32768,
+		"iS": 291481,
+		"oA": 0,
+		"oAP": "/build/assets/img/unicorn_globe@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"/src/assets/img/unicorns.png": {
 		"ft": 32768,
 		"iS": 9920,
@@ -735,6 +933,16 @@
 		"opt": 1,
 		"oT": 1,
 		"q": 100
+		},
+	"/src/assets/img/up.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/assets/img/up.svg",
+		"oF": 0,
+		"opt": 1,
+		"plM": 1103269715967,
+		"prP": 0
 		},
 	"/src/CNAME": {
 		"cB": 0,
@@ -875,6 +1083,16 @@
 		"oF": 0,
 		"oS": 0
 		},
+	"/src/pug/pages/practice.pug": {
+		"cB": 1,
+		"cOD": 0,
+		"ft": 512,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/build/practice.html",
+		"oF": 0,
+		"oS": 0
+		},
 	"/src/pug/pages/theory.pug": {
 		"cB": 1,
 		"cOD": 0,
@@ -895,6 +1113,16 @@
 		"oF": 0,
 		"oS": 0
 		},
+	"/src/pug/sections/_giveaway.pug": {
+		"cB": 1,
+		"cOD": 0,
+		"ft": 512,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/build/_giveaway.html",
+		"oF": 0,
+		"oS": 0
+		},
 	"/src/pug/sections/_header.pug": {
 		"cB": 1,
 		"cOD": 0,
@@ -912,6 +1140,76 @@
 		"hM": 0,
 		"oA": 1,
 		"oAP": "/build/_main.html",
+		"oF": 0,
+		"oS": 0
+		},
+	"/src/pug/sections/practice/_annotation.pug": {
+		"cB": 1,
+		"cOD": 0,
+		"ft": 512,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/build/_annotation.html",
+		"oF": 0,
+		"oS": 0
+		},
+	"/src/pug/sections/practice/_aside.pug": {
+		"cB": 1,
+		"cOD": 0,
+		"ft": 512,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/build/_aside.html",
+		"oF": 0,
+		"oS": 0
+		},
+	"/src/pug/sections/practice/_conclusion.pug": {
+		"cB": 1,
+		"cOD": 0,
+		"ft": 512,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/build/_conclusion.html",
+		"oF": 0,
+		"oS": 0
+		},
+	"/src/pug/sections/practice/_how.pug": {
+		"cB": 1,
+		"cOD": 0,
+		"ft": 512,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/build/_how.html",
+		"oF": 0,
+		"oS": 0
+		},
+	"/src/pug/sections/practice/_solutions.pug": {
+		"cB": 1,
+		"cOD": 0,
+		"ft": 512,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/build/_solutions.html",
+		"oF": 0,
+		"oS": 0
+		},
+	"/src/pug/sections/practice/_subscribe.pug": {
+		"cB": 1,
+		"cOD": 0,
+		"ft": 512,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/build/_subscribe.html",
+		"oF": 0,
+		"oS": 0
+		},
+	"/src/pug/sections/practice/_why.pug": {
+		"cB": 1,
+		"cOD": 0,
+		"ft": 512,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/build/_why.html",
 		"oF": 0,
 		"oS": 0
 		},
@@ -942,16 +1240,6 @@
 		"hM": 0,
 		"oA": 1,
 		"oAP": "/build/_forecasts.html",
-		"oF": 0,
-		"oS": 0
-		},
-	"/src/pug/sections/theory/_giveaway.pug": {
-		"cB": 1,
-		"cOD": 0,
-		"ft": 512,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/build/_giveaway.html",
 		"oF": 0,
 		"oS": 0
 		},
@@ -1102,6 +1390,19 @@
 		"oS": 3,
 		"uL": 1
 		},
+	"/src/scss/sections/_aside.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "/build/scss/css/_aside.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
 	"/src/scss/sections/_footer.scss": {
 		"aP": 1,
 		"bl": 0,
@@ -1150,6 +1451,19 @@
 		"ma": 1,
 		"oA": 1,
 		"oAP": "/build/scss/css/_main.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"/src/scss/sections/_practice.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "/build/scss/css/_practice.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
@@ -1204,7 +1518,7 @@
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "/src/assets/favicon/android-chrome-512x512.png",
 	"iconImageWasSetByUser": 1,
-	"lastBuiltDate": 586914146.17660701
+	"lastBuiltDate": 586962615.19240296
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,

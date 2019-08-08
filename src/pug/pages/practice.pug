@@ -1,0 +1,20 @@
+extends ../_layout
+
+block const
+    -
+        const page = 'practice'
+        const name = 'Web 3.0: Практика'
+block content
+    +promo(true)(class="promo--practice")
+    #top.grid-container.practice
+        article#stickyContent.practice_content
+            include ../sections/practice/_annotation
+            include ../sections/practice/_why
+            include ../sections/practice/_how
+            include ../sections/_giveaway
+            +giveaway()(class="giveaway--practice")
+            include ../sections/practice/_solutions
+            include ../sections/practice/_conclusion
+            include ../sections/practice/_subscribe
+        include ../sections/practice/_aside
+        include ../sections/_footer

@@ -13,4 +13,4 @@ const pageWidget = pages => {
     });
 }
 
-pageWidget(['index', 'theory']);
+pageWidget(['index', 'theory', 'practice']);

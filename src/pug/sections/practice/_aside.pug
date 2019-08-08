@@ -1,0 +1,31 @@
+aside.aside.aside--practice(data-sticky-container)
+    .aside_consists.sticky(data-sticky data-margin-top="0" data-anchor="stickyContent")
+        p.aside_header
+            | Содержание
+
+        ul.aside_menu(data-magellan data-animation-easing="swing")
+            li
+                a(href='#why') Почему Waves Keeper и&nbsp;при чем здесь Web&nbsp;3.0
+            li
+                a(href='#how') Как работает Waves Keeper
+        ul.aside_menu(data-accordion-menu)
+            li
+                a(href='#solutions') Другие решения Waves
+                ul.aside_menu.nested(data-magellan data-animation-easing="swing")
+                    li
+                        a(href='#infrastructure') Инфраструктура для приложений
+                    li
+                        a(href='#finances') Личные финансы
+                    li
+                        a(href='#corporate') Корпоративные решения
+        ul.aside_menu(data-magellan data-animation-easing="swing")
+            li
+                a(href='#conclusion') Заключение
+
+        ul.aside_menu.aside_menu--main
+            li
+                a(href="./")
+                    | Главная
+            li
+                a(href="./theory.html")
+                    | Теория

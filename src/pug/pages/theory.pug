@@ -3,7 +3,7 @@ extends ../_layout
 block const
     -
         const page = 'theory'
-        const name = 'Web 3.0: теория'
+        const name = 'Web 3.0: Теория'
 block content
     #top.grid-container.theory
         article#stickyContent.theory_content
@@ -16,7 +16,7 @@ block content
             include ../sections/theory/_nowadays
             include ../sections/theory/_forecasts
             include ../sections/theory/_conclusion
-            include ../sections/theory/_giveaway
+            include ../sections/_giveaway
+            +giveaway(true)
         include ../sections/theory/_sponsor
         include ../sections/theory/_aside
-            

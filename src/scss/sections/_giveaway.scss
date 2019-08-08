@@ -1,4 +1,14 @@
 .giveaway{
+    &--practice{
+        .giveaway_img{
+            img{
+                max-width: 100%;
+            }
+            + p{
+                padding-left: 32%;
+            }
+        }
+    }
     &_img{
         // width: 100vw;
         margin-left: calc((100vw - 1000px) / -2);
@@ -14,13 +24,13 @@
     }
     &_token{
         display: grid;
-        grid-template-columns: 38px minmax(100px, 470px);
+        grid-template-columns: 38px auto;
         grid-gap: 12px;
         align-items: center;
         margin: 27px 0;
         &_text{
             margin: 0;
-            font-size: 13px;
+            font-size: 14px;
         }
         svg{
             display: block;

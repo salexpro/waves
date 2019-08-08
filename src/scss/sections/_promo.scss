@@ -8,10 +8,10 @@
             background-image: url(../assets/img/promos/main.jpg);
         }
     }
-    &--theory{
+    &--theory, &--practice{
         position: relative;
         background-image: url(../assets/img/promos/theory@2x.jpg);
-        cursor: pointer;
+        // cursor: pointer;
         margin-bottom: 50px;
         &:before{
             content: '';
@@ -44,6 +44,31 @@
             &::before{
                 visibility: visible;
                 opacity: 1;
+            }
+        }
+    }
+    &--practice{
+        background-image: url(../assets/img/promos/practice@2x.jpg);
+        background-size: auto 100%;
+        background-repeat: no-repeat;
+        padding-top: 20px;
+        margin: 0;
+        height: 290px;
+        &:before{
+            background-image: url(../assets/img/promos/practice_hover@2x.jpg);
+            background-size: auto 100%;
+            // background-repeat: no-repeat;
+        }
+        .h1{
+            position: relative;
+            z-index: 3;
+            margin-left: -27px;
+            transition: color 400ms, text-shadow 400ms;
+        }
+        &:hover, &:focus{
+            .h1{
+                color: $white;
+                text-shadow: -3px 0 0 #9900cc;
             }
         }
     }

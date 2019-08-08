@@ -10,82 +10,6 @@
     &_content{
         grid-area: content;
     }
-    &_aside{
-        grid-area: aside;
-        &_header{
-            font-weight: 700;
-            margin-bottom: 10px;
-        }
-    }
-    &_consists{
-        padding-top: 48px;
-        padding-left: 30px;
-        padding: 48px 30px 30px;
-        background-image: url(data:image/svg+xml;charset=utf-8,%3Csvg%20width%3D%22487%22%20height%3D%22308%22%20viewBox%3D%220%200%20487%20308%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20d%3D%22M0%200H487V293.5C487%20293.5%20349%20261.5%20243.5%20293.5C138%20325.5%200%20293.5%200%20293.5V0Z%22%20fill%3D%22%23ffffff%22%2F%3E%3C%2Fsvg%3E);
-        background-size: cover;
-        background-position: bottom center;
-
-    }
-    &_menu{
-        margin: 0;
-        list-style: none;
-        max-width: 265px;
-        // padding-bottom: 10px;
-        &.nested{
-            padding: 5px 0 0 30px;
-        }
-        &--main{
-            margin-top: 10px;
-            border-top: 1px solid #c6ccf2;
-            padding-top: 5px;
-        }
-        li{
-            &:not(.is-submenu-item){
-                margin-top: 5px;
-            }
-            &.is-accordion-submenu-parent{
-                > a{
-                    display: flex;
-                    justify-content: space-between;
-                    align-items: center;
-                    &::after{
-                        content: '';
-                        width: 17px;
-                        height: 9px;
-                        background-image: url(data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20width%3D%2217%22%20height%3D%229%22%20viewBox%3D%220%200%2017%209%22%3E%3Cpath%20fill-opacity%3D%220%22%20stroke%3D%22%23000000%22%20stroke-width%3D%221%22%20d%3D%22M16.27757%2C0.49749v0l-7.77803%2C7.7784v0l-7.77848%2C-7.7784v0%22%2F%3E%3C%2Fsvg%3E);
-                        margin-left: 10px;
-                        transition: transform 300ms;
-                    }
-                    &:hover{
-                        border-bottom-color: $primary-color;
-                        &::after{
-                            background-image: url(data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20width%3D%2217%22%20height%3D%229%22%20viewBox%3D%220%200%2017%209%22%3E%3Cpath%20fill-opacity%3D%220%22%20stroke%3D%22%23054ddd%22%20stroke-width%3D%221%22%20d%3D%22M16.27757%2C0.49749v0l-7.77803%2C7.7784v0l-7.77848%2C-7.7784v0%22%2F%3E%3C%2Fsvg%3E);
-                        }
-                    }
-                }
-                &[aria-expanded="true"]{
-                    > a{
-                        color: $primary-color;
-                        border-bottom-color: $primary-color;
-                        &::after{
-                            transform: rotate(180deg);
-                            background-image: url(data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20width%3D%2217%22%20height%3D%229%22%20viewBox%3D%220%200%2017%209%22%3E%3Cpath%20fill-opacity%3D%220%22%20stroke%3D%22%23054ddd%22%20stroke-width%3D%221%22%20d%3D%22M16.27757%2C0.49749v0l-7.77803%2C7.7784v0l-7.77848%2C-7.7784v0%22%2F%3E%3C%2Fsvg%3E);
-                        }
-                    }
-                }
-            }
-        }
-        a {
-            display: block;
-            font-weight: 300;
-            color: $black;
-            border-bottom: 1px solid transparent;
-            transition: border 250ms, color 250ms;
-            &:hover, &:target, &.is-active{
-                color: $primary-color;
-            }
-        }
-    }
 
     &_gradient{
         position: relative;
@@ -204,11 +128,5 @@
         .button + .button{
             margin-left: 14px;
         }
-    }
-    &_up{
-        position: absolute;
-        bottom: 165px;
-        right: 34px;
-        max-width: 48px;
     }
 }
