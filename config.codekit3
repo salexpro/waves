@@ -301,72 +301,6 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/src/assets/img/bg_cta.jpg": {
-		"ft": 16384,
-		"iS": 46143,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/build/assets/img/bg_cta.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 100
-		},
-	"/src/assets/img/bg_cta@2x.jpg": {
-		"ft": 16384,
-		"iS": 146860,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/build/assets/img/bg_cta@2x.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 100
-		},
-	"/src/assets/img/bg_extension.jpg": {
-		"ft": 16384,
-		"iS": 167084,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/build/assets/img/bg_extension.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 100
-		},
-	"/src/assets/img/bg_extension@2x.jpg": {
-		"ft": 16384,
-		"iS": 545288,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/build/assets/img/bg_extension@2x.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 100
-		},
-	"/src/assets/img/bg_giveaway_big.jpg": {
-		"ft": 16384,
-		"iS": 131284,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/build/assets/img/bg_giveaway_big.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 100
-		},
-	"/src/assets/img/bg_giveaway_big@2x.jpg": {
-		"ft": 16384,
-		"iS": 372853,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/build/assets/img/bg_giveaway_big@2x.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 100
-		},
 	"/src/assets/img/bg_practice.png": {
 		"ft": 32768,
 		"iS": 10191,
@@ -433,26 +367,48 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/src/assets/img/browser.png": {
-		"ft": 32768,
-		"iS": 22980,
+	"/src/assets/img/browser.jpg": {
+		"ft": 16384,
+		"iS": 18295,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "/build/assets/img/browser.png",
+		"oAP": "/build/assets/img/browser.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
-		"oT": 1,
 		"q": 100
 		},
-	"/src/assets/img/browser@2x.png": {
-		"ft": 32768,
-		"iS": 53044,
+	"/src/assets/img/browser@2x.jpg": {
+		"ft": 16384,
+		"iS": 51392,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "/build/assets/img/browser@2x.png",
+		"oAP": "/build/assets/img/browser@2x.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
-		"oT": 1,
+		"q": 100
+		},
+	"/src/assets/img/extension.jpg": {
+		"ft": 16384,
+		"iS": 80033,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/assets/img/extension.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/src/assets/img/extension@2x.jpg": {
+		"ft": 16384,
+		"iS": 204622,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/assets/img/extension@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/src/assets/img/family.jpg": {
@@ -531,28 +487,6 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/src/assets/img/giveaway.png": {
-		"ft": 32768,
-		"iS": 18015,
-		"oA": 0,
-		"oAP": "/build/assets/img/giveaway.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
-	"/src/assets/img/giveaway@2x.png": {
-		"ft": 32768,
-		"iS": 39355,
-		"oA": 0,
-		"oAP": "/build/assets/img/giveaway@2x.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
 	"/src/assets/img/icons.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -601,6 +535,28 @@
 		"iS": 19391,
 		"oA": 0,
 		"oAP": "/build/assets/img/ledger@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/src/assets/img/ledger_giveaway.png": {
+		"ft": 32768,
+		"iS": 11684,
+		"oA": 0,
+		"oAP": "/build/assets/img/ledger_giveaway.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/src/assets/img/ledger_giveaway@2x.png": {
+		"ft": 32768,
+		"iS": 25746,
+		"oA": 0,
+		"oAP": "/build/assets/img/ledger_giveaway@2x.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
@@ -824,6 +780,16 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/src/assets/img/stars.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/assets/img/stars.svg",
+		"oF": 0,
+		"opt": 1,
+		"plM": 1103269715967,
+		"prP": 0
+		},
 	"/src/assets/img/subject_predicate_object.png": {
 		"ft": 32768,
 		"iS": 4830,
@@ -890,6 +856,28 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/src/assets/img/unicorn_beams.png": {
+		"ft": 32768,
+		"iS": 32127,
+		"oA": 0,
+		"oAP": "/build/assets/img/unicorn_beams.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/src/assets/img/unicorn_beams@2x.png": {
+		"ft": 32768,
+		"iS": 76987,
+		"oA": 0,
+		"oAP": "/build/assets/img/unicorn_beams@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"/src/assets/img/unicorn_globe.png": {
 		"ft": 32768,
 		"iS": 117865,
@@ -943,6 +931,28 @@
 		"opt": 1,
 		"plM": 1103269715967,
 		"prP": 0
+		},
+	"/src/assets/img/wave.png": {
+		"ft": 32768,
+		"iS": 977,
+		"oA": 0,
+		"oAP": "/build/assets/img/wave.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/src/assets/img/wave@2x.png": {
+		"ft": 32768,
+		"iS": 2123,
+		"oA": 0,
+		"oAP": "/build/assets/img/wave@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
 		},
 	"/src/CNAME": {
 		"cB": 0,
@@ -1073,6 +1083,16 @@
 		"oF": 0,
 		"oS": 0
 		},
+	"/src/pug/components/_subscribe.pug": {
+		"cB": 1,
+		"cOD": 0,
+		"ft": 512,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/build/_subscribe.html",
+		"oF": 0,
+		"oS": 0
+		},
 	"/src/pug/pages/index.pug": {
 		"cB": 1,
 		"cOD": 0,
@@ -1190,16 +1210,6 @@
 		"hM": 0,
 		"oA": 1,
 		"oAP": "/build/_solutions.html",
-		"oF": 0,
-		"oS": 0
-		},
-	"/src/pug/sections/practice/_subscribe.pug": {
-		"cB": 1,
-		"cOD": 0,
-		"ft": 512,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/build/_subscribe.html",
 		"oF": 0,
 		"oS": 0
 		},
@@ -1390,6 +1400,19 @@
 		"oS": 3,
 		"uL": 1
 		},
+	"/src/scss/components/_subscribe.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "/build/scss/css/_subscribe.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
 	"/src/scss/sections/_aside.scss": {
 		"aP": 1,
 		"bl": 0,
@@ -1518,7 +1541,7 @@
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "/src/assets/favicon/android-chrome-512x512.png",
 	"iconImageWasSetByUser": 1,
-	"lastBuiltDate": 586962615.19240296
+	"lastBuiltDate": 587100238.15574706
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,

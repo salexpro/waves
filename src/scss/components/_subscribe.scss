@@ -1,0 +1,95 @@
+.subscribe{
+    font-size: 14px;
+    color: $white;
+    position: relative;
+    &--practice{
+        margin: 35px calc((100vw - 1000px) / -2 - 360px) 0 calc((100vw - 1000px) / -2);
+        background: linear-gradient(0deg, #0850E1 0%, #2D0096 74.39%);
+        &::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 38px;
+            transform: translateY(-58%) scale(-1, -1);
+            background-image: url(../assets/img/wave@2x.png);
+            background-position: center bottom;
+            background-size: contain;
+        }
+        .subscribe{
+            &_container{
+                min-height: 185px;
+                &::before{
+                    content: '';
+                    position: absolute;
+                    right: calc(100% - 30px);
+                    top: 5%;
+                    width: 237px;
+                    height: 69px;
+                    transform: rotate(120deg);
+                    transform-origin: bottom;
+                    background-image: url(../assets/img/stars.svg);
+                    background-size: contain;
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    z-index: 2;
+                }
+            }
+            &_content{
+                max-width: 516px;
+            }
+            &_form{
+                margin-top: 17px;
+            }
+        }
+    }
+    &--popup{
+        padding-left: 10px;
+        padding-right: 30px;
+        .subscribe_content{
+            display: grid;
+            grid-template-columns: auto 1fr;
+            grid-gap: 22px;
+            align-items: center;
+            height: 132px;
+        }
+    }
+    &_container{
+        display: flex;
+        align-items: center;
+        position: relative;
+        width: 100%;
+    }
+    &_content{
+        width: 100%;
+    }
+    &_header{
+        margin: 0;
+        line-height: normal;
+        span{
+            display: block;
+            font-size: 18px;
+        }
+    }
+    &_form{
+        display: flex;
+        input{
+            margin-right: -30px;
+            padding-right: 48px;
+        }
+        .button{
+            font-size: 14px;
+            padding: 12px 20px;
+            flex: 0 0 195px;
+        }
+    }
+    &_img{
+        position: absolute;
+        bottom: -53px;
+        right: 0;
+        width: 100%;
+        max-width: 523px;
+        z-index: 2;
+    }
+}

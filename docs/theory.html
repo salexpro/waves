@@ -2,79 +2,84 @@
 <html lang="ru">
   <head>
     <meta charset="UTF-8">
-    <title>Web 3.0 в теории и на практике</title>
-    <meta name="description" content="Эволюция сети от Web 1.0 к  Web 3.0">
+    <title>Эволюция сети от Web 1.0 к Web 3.0: теория</title>
+    <meta name="description" content="История онлайн-мира, децентрализации, причинах перехода к Web 3.0 и технологиях “под капотом” новой сети.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, viewport-fit=cover">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <meta name="format-detection" content="telephone=no">
-    <meta property="og:title" content="Web 3.0 в теории и на практике">
-    <meta property="og:description" content="Эволюция сети от Web 1.0 к  Web 3.0">
+    <meta property="og:title" content="Эволюция сети от Web 1.0 к Web 3.0: теория">
+    <meta property="og:description" content="История онлайн-мира, децентрализации, причинах перехода к Web 3.0 и технологиях “под капотом” новой сети.">
     <meta property="og:type" content="website">
     <meta property="og:image" content="https://waves.salex.pro/assets/img/opengraph.jpg">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="1200">
-    <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png?ckcachebust=09d67d2782c505b6c755219ec2ab1d14">
-    <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png?ckcachebust=c7f0e14351ac0cd25fd6eae098bf7253">
-    <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png?ckcachebust=73b21a6ae0a815bd97459a794e084f84">
-    <link rel="manifest" href="/assets/favicon/site.webmanifest?ckcachebust=cb3c8aceacfe02a1f434189f9feb4837">
-    <link rel="mask-icon" href="/assets/favicon/safari-pinned-tab.svg?ckcachebust=586962613" color="#4f089d">
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png?ckcachebust=6278975999e5858f26a39a4afe571412">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png?ckcachebust=053ec5b62e1a59e40fd5ebec3f3207cb">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png?ckcachebust=5724c5a91bae55306e30731f6f814ec9">
+    <link rel="manifest" href="/assets/favicon/site.webmanifest?ckcachebust=a8882d1f0bd99fa028a218825783f4ff">
+    <link rel="mask-icon" href="/assets/favicon/safari-pinned-tab.svg?ckcachebust=587100237" color="#4f089d">
     <meta name="msapplication-TileColor" content="#4f089d">
     <meta name="msapplication-config" content="/assets/favicon/browserconfig.xml">
     <meta name="theme-color" content="#ffffff">
     <!-- Code snippet to speed up Google Fonts rendering: googlefonts.3perf.com-->
-    <link rel="dns-prefetch" href="https://fonts.gstatic.com?ckcachebust=586962613">
-    <link rel="preconnect" href="https://fonts.gstatic.com?ckcachebust=586962613" crossorigin="anonymous">
+    <link rel="dns-prefetch" href="https://fonts.gstatic.com?ckcachebust=587100237">
+    <link rel="preconnect" href="https://fonts.gstatic.com?ckcachebust=587100237" crossorigin="anonymous">
     <link rel="preload" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&amp;display=swap&amp;subset=cyrillic" as="fetch" crossorigin="anonymous">
     <script type="text/javascript">!function(e,n,t){"use strict";var o="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap&subset=cyrillic",r="__3perf_googleFonts_29f2a";function c(e){(n.head||n.body).appendChild(e)}function a(){var e=n.createElement("link");e.href=o,e.rel="stylesheet",c(e)}function f(e){if(!n.getElementById(r)){var t=n.createElement("style");t.id=r,c(t)}n.getElementById(r).innerHTML=e}e.FontFace&&e.FontFace.prototype.hasOwnProperty("display")?(t[r]&&f(t[r]),fetch(o).then(function(e){return e.text()}).then(function(e){return e.replace(/@font-face {/g,"@font-face{font-display:swap;")}).then(function(e){return t[r]=e}).then(f).catch(a)):a()}(window,document,localStorage);</script>
     <!-- End of code snippet for Google Fonts-->
-    <link rel="stylesheet" href="./css/app.css?ckcachebust=e431a60b8e1de244b624ca156c4010a8">
+    <link rel="stylesheet" href="./css/app.css?ckcachebust=ee1fc1e95a655d36c502abddfb29a674">
   </head>
   <body>
     <main class="wrap">
       <header class="header">
-        <div class="grid-container header_inner"><a href="/"><img src="./assets/img/logo.svg" alt="Waves / Forklog"></a>
+        <div class="grid-container header_inner">
+          <div class="header_logo"><a href="https://wavesplatform.com/" target="_blank"><img src="./assets/img/logo_waves.svg" alt="Waves"></a><a href="https://forklog.com/" target="_blank"><img src="./assets/img/logo_forklog.svg" alt="Forklog"></a></div>
           <ul class="header_menu">
             <li><a href="./">Главная</a></li>
             <li><a class="is_active" href="theory.html">Теория</a></li>
             <li><a href="practice.html">Практика</a></li>
           </ul>
           <ul class="social">
-            <li><a href="#">
-                <svg width="10" height="20" viewBox="0 0 10 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <defs>
+            <li><a href="http://www.facebook.com/sharer.php?u=https://forklog.com/sp/web3-0/theory" target="_blank">
+            <svg width="10" height="20" viewBox="0 0 10 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <defs>
                     <lineargradient id="gradient" x1="10" y1="0" x2="10" y2="16" gradientUnits="userSpaceOnUse">
-                      <stop stop-color="#6A9CFF"></stop>
-                      <stop offset="0.53125" stop-color="#3C7DFF"></stop>
-                      <stop offset="1" stop-color="#0053F9"></stop>
+                    <stop stop-color="#6A9CFF"></stop>
+                    <stop offset="0.53125" stop-color="#3C7DFF"></stop>
+                    <stop offset="1" stop-color="#0053F9"></stop>
                     </lineargradient>
-                  </defs>
-                  <path d="M10 6.47609H6.59435V4.40033C6.59435 3.62078 7.1503 3.43904 7.54187 3.43904C7.93255 3.43904 9.94521 3.43904 9.94521 3.43904V0.0120057L6.63533 0C2.96107 0 2.12491 2.55599 2.12491 4.19168V6.47609H0V10.0075H2.12491C2.12491 14.5394 2.12491 20 2.12491 20H6.59435C6.59435 20 6.59435 14.4856 6.59435 10.0075H9.61021L10 6.47609Z" fill="currentColor"></path>
-                </svg></a></li>
-            <li><a href="#">
-                <svg width="20" height="16" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M20 2.37312C19.2633 2.68736 18.1627 3.10464 17.3333 3.2C18.182 2.71232 19.026 1.56096 19.3333 0.64C18.686 1.00928 17.942 1.5072 17.182 1.77472L16.6667 1.28C15.9193 0.51392 15.18 0 14 0C11.7347 0 10 1.66528 10 3.84C10 4.09536 10.0313 4.288 10.0733 4.45184L10 4.48C6 4.48 3.356 3.66336 1.33333 1.28C0.979333 1.86112 0.666667 2.47808 0.666667 3.2C0.666667 4.56704 1.56533 5.69216 2.66667 6.4C1.994 6.37888 1.21933 6.05312 0.666667 5.76C0.666667 7.6672 3.45733 9.87648 5.33333 10.24C4.66667 10.88 2.25133 10.2874 2 10.24C2.52267 11.8061 4.206 12.7674 6 12.8C4.59667 13.8547 2.902 14.4064 0.979333 14.4064C0.647333 14.4064 0.321333 14.3878 0 14.3526C1.81533 15.4688 4.34867 16 6.66667 16C14.2147 16 18 10.3251 18 5.12C18 4.94848 18.0053 4.64896 18 4.48C18.8007 3.92448 19.448 3.16288 20 2.37312Z" fill="currentColor"></path>
-                </svg></a></li>
-            <li><a href="#">
-                <svg width="26" height="15" viewBox="0 0 26 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M25.4074 1.01716C25.586 0.431234 25.4074 0 24.5483 0H21.7054C20.9814 0 20.6483 0.370304 20.4698 0.78282C20.4698 0.78282 19.0219 4.20931 16.9753 6.43119C16.3141 7.07338 16.01 7.27966 15.6481 7.27966C15.4696 7.27966 15.1944 7.07338 15.1944 6.48745V1.01716C15.1944 0.314039 14.9916 0 14.3931 0H9.92366C9.46996 0 9.19967 0.328147 9.19967 0.632799C9.19967 1.29837 10.2229 1.45306 10.3291 3.32807V7.39686C10.3291 8.28749 10.165 8.45145 9.80304 8.45145C8.8377 8.45145 6.49193 5.0109 5.10189 1.07342C4.82199 0.309373 4.54679 0 3.818 0H0.975002C0.16414 0 0 0.370304 0 0.78282C0 1.51399 0.965337 5.14687 4.4936 9.94683C6.84418 13.2233 10.1552 15 13.1671 15C14.977 15 15.1991 14.6063 15.1991 13.9266C15.1991 10.7952 15.035 10.4999 15.9424 10.4999C16.3623 10.4999 17.0863 10.7062 18.7757 12.2858C20.7062 14.1608 21.0248 14.9999 22.106 14.9999H24.9489C25.7598 14.9999 26.1701 14.6062 25.9335 13.8279C25.393 12.1921 21.7392 8.82647 21.5751 8.60147C21.1552 8.07648 21.2758 7.84203 21.5751 7.37325C21.58 7.3687 25.0502 2.62495 25.4074 1.01716Z" fill="currentColor"></path>
-                </svg></a></li>
-            <li><a href="#">
-                <svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M20.7242 0.127215C20.8153 0.0835582 20.9069 0.0408403 21 0C19.6079 6.00634 18.2044 12.0108 16.8025 18.0153C14.5993 16.9727 12.403 15.9178 10.2008 14.8729C9.3573 15.9822 8.51769 17.0942 7.67563 18.204C7.21618 18.8011 6.77496 19.4113 6.30468 20C6.29286 17.673 6.29877 15.3451 6.30172 13.0177C4.20591 12.0056 2.09828 11.0151 0 10.0073C6.90644 6.71095 13.8168 3.42166 20.7242 0.127215ZM17.4717 3.65121C14.4949 6.05375 11.5349 8.47553 8.5566 10.8767C8.47288 10.9414 8.38523 11.018 8.40296 11.132C8.40985 12.0779 8.3867 13.0248 8.41527 13.9702C8.48027 13.9106 8.54428 13.85 8.60436 13.7857C10.8198 11.3132 13.0338 8.83887 15.2528 6.36874C16.2081 5.29093 17.1885 4.23284 18.1271 3.14142C17.8932 3.29257 17.6884 3.4794 17.4717 3.65121Z" fill="currentColor"></path>
-                </svg></a></li>
+                </defs>
+                <path d="M10 6.47609H6.59435V4.40033C6.59435 3.62078 7.1503 3.43904 7.54187 3.43904C7.93255 3.43904 9.94521 3.43904 9.94521 3.43904V0.0120057L6.63533 0C2.96107 0 2.12491 2.55599 2.12491 4.19168V6.47609H0V10.0075H2.12491C2.12491 14.5394 2.12491 20 2.12491 20H6.59435C6.59435 20 6.59435 14.4856 6.59435 10.0075H9.61021L10 6.47609Z" fill="currentColor"></path>
+            </svg>
+        </a></li>
+            <li><a href="https://twitter.com/share?url=https://forklog.com/sp/web3-0/theory" target="_blank">
+            <svg width="20" height="16" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M20 2.37312C19.2633 2.68736 18.1627 3.10464 17.3333 3.2C18.182 2.71232 19.026 1.56096 19.3333 0.64C18.686 1.00928 17.942 1.5072 17.182 1.77472L16.6667 1.28C15.9193 0.51392 15.18 0 14 0C11.7347 0 10 1.66528 10 3.84C10 4.09536 10.0313 4.288 10.0733 4.45184L10 4.48C6 4.48 3.356 3.66336 1.33333 1.28C0.979333 1.86112 0.666667 2.47808 0.666667 3.2C0.666667 4.56704 1.56533 5.69216 2.66667 6.4C1.994 6.37888 1.21933 6.05312 0.666667 5.76C0.666667 7.6672 3.45733 9.87648 5.33333 10.24C4.66667 10.88 2.25133 10.2874 2 10.24C2.52267 11.8061 4.206 12.7674 6 12.8C4.59667 13.8547 2.902 14.4064 0.979333 14.4064C0.647333 14.4064 0.321333 14.3878 0 14.3526C1.81533 15.4688 4.34867 16 6.66667 16C14.2147 16 18 10.3251 18 5.12C18 4.94848 18.0053 4.64896 18 4.48C18.8007 3.92448 19.448 3.16288 20 2.37312Z" fill="currentColor"></path>
+            </svg>
+        </a></li>
+            <li><a href="https://vk.com/share.php?url=https://forklog.com/sp/web3-0/theory" target="_blank">
+            <svg width="26" height="15" viewBox="0 0 26 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M25.4074 1.01716C25.586 0.431234 25.4074 0 24.5483 0H21.7054C20.9814 0 20.6483 0.370304 20.4698 0.78282C20.4698 0.78282 19.0219 4.20931 16.9753 6.43119C16.3141 7.07338 16.01 7.27966 15.6481 7.27966C15.4696 7.27966 15.1944 7.07338 15.1944 6.48745V1.01716C15.1944 0.314039 14.9916 0 14.3931 0H9.92366C9.46996 0 9.19967 0.328147 9.19967 0.632799C9.19967 1.29837 10.2229 1.45306 10.3291 3.32807V7.39686C10.3291 8.28749 10.165 8.45145 9.80304 8.45145C8.8377 8.45145 6.49193 5.0109 5.10189 1.07342C4.82199 0.309373 4.54679 0 3.818 0H0.975002C0.16414 0 0 0.370304 0 0.78282C0 1.51399 0.965337 5.14687 4.4936 9.94683C6.84418 13.2233 10.1552 15 13.1671 15C14.977 15 15.1991 14.6063 15.1991 13.9266C15.1991 10.7952 15.035 10.4999 15.9424 10.4999C16.3623 10.4999 17.0863 10.7062 18.7757 12.2858C20.7062 14.1608 21.0248 14.9999 22.106 14.9999H24.9489C25.7598 14.9999 26.1701 14.6062 25.9335 13.8279C25.393 12.1921 21.7392 8.82647 21.5751 8.60147C21.1552 8.07648 21.2758 7.84203 21.5751 7.37325C21.58 7.3687 25.0502 2.62495 25.4074 1.01716Z" fill="currentColor"></path>
+            </svg>
+        </a></li>
+            <li><a href="https://telegram.me/share/url?url=https://forklog.com/sp/web3-0/theory" target="_blank">
+            <svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M20.7242 0.127215C20.8153 0.0835582 20.9069 0.0408403 21 0C19.6079 6.00634 18.2044 12.0108 16.8025 18.0153C14.5993 16.9727 12.403 15.9178 10.2008 14.8729C9.3573 15.9822 8.51769 17.0942 7.67563 18.204C7.21618 18.8011 6.77496 19.4113 6.30468 20C6.29286 17.673 6.29877 15.3451 6.30172 13.0177C4.20591 12.0056 2.09828 11.0151 0 10.0073C6.90644 6.71095 13.8168 3.42166 20.7242 0.127215ZM17.4717 3.65121C14.4949 6.05375 11.5349 8.47553 8.5566 10.8767C8.47288 10.9414 8.38523 11.018 8.40296 11.132C8.40985 12.0779 8.3867 13.0248 8.41527 13.9702C8.48027 13.9106 8.54428 13.85 8.60436 13.7857C10.8198 11.3132 13.0338 8.83887 15.2528 6.36874C16.2081 5.29093 17.1885 4.23284 18.1271 3.14142C17.8932 3.29257 17.6884 3.4794 17.4717 3.65121Z" fill="currentColor"></path>
+            </svg>
+        </a></li>
           </ul>
-          <div class="header_buttons"><a class="button small hollow" href="#">Подписка</a><a class="button small hollow" href="https://forklog.com/sp/" target="_blank">Все спецпроекты</a></div>
+          <div class="header_buttons"><a class="button small hollow" data-toggle="subcribe">Подписка</a><a class="button small hollow" href="https://forklog.com/sp/" target="_blank">Все спецпроекты</a></div>
         </div>
       </header>
       <div class="grid-container theory" id="top">
         <article class="theory_content" id="stickyContent">
           <section class="promo promo--theory">
           </section>
-          <h1 class="h1">Web 3.0: Теория
-          </h1>
-          <p>Это первая часть спецпроекта о&nbsp;Web&nbsp;3.0&nbsp;&mdash; новом этапе в&nbsp;развитии Всемирной паутины. В&nbsp;этом материале мы&nbsp;поговорим об&nbsp;истории онлайн-мира, децентрализации, причинах перехода к&nbsp;Web&nbsp;3.0 и&nbsp;технологиях &laquo;под капотом&raquo; новой сети. Специалисты из&nbsp;Waves поделились своими мнениями о&nbsp;будущем сети третьей версии.</p>
+          <div class="h1">Web 3.0: Теория</div>
+          <h1 class="p">Это первая часть спецпроекта о&nbsp;Web&nbsp;3.0&nbsp;&mdash; новом этапе в&nbsp;развитии Всемирной паутины.</h1>
+          <p class="p">В&nbsp;этом материале мы&nbsp;поговорим об&nbsp;истории онлайн-мира, децентрализации, причинах перехода к&nbsp;Web&nbsp;3.0 и&nbsp;технологиях &laquo;под капотом&raquo; новой сети. Специалисты из&nbsp;Waves поделились своими мнениями о&nbsp;будущем сети третьей версии.</p>
           <section class="theory_history">
             <h2 id="history">Краткая история сети</h2>
             <div class="theory_gradient"><strong>Понятия &laquo;веб&raquo; и&nbsp;&laquo;интернет&raquo; часто взаимозаменяются, но&nbsp;это не&nbsp;одно и&nbsp;то&nbsp;же.</strong>
@@ -94,7 +99,7 @@
             <div class="theory_website">
               <p>
                 В&nbsp;1989 сотрудник CERN Тим Бернерс-Ли изобрел веб. Годом позже он&nbsp;разработал первый веб-браузер. В&nbsp;1991 браузер задействовали для обмена информацией между научными организациями и&nbsp;вскоре представили широкой публике. А&nbsp;6&nbsp;августа 1991 года Бернерс-Ли выложил первый веб-сайт на&nbsp;первом веб-сервере с&nbsp;адресом
-                 <a class="secondary" href="http://info.cern.ch/" target="_blank">http://info.cern.ch/</a>. Там изобретатель представил инструкции по&nbsp;использованию программ для работы с&nbsp;вебом, а&nbsp;позже&nbsp;&mdash; каталог других сайтов. 
+                 <a href="http://info.cern.ch/" target="_blank">http://info.cern.ch/</a>. Там изобретатель представил инструкции по&nbsp;использованию программ для работы с&nbsp;вебом, а&nbsp;позже&nbsp;&mdash; каталог других сайтов. 
               </p>
               <div class="theory_website_aside">
                 <figure class="theory_figure"><img srcset="./assets/img/first_site@2x.png 2x, ./assets/img/first_site.png 1x" src="./assets/img/first_site.png" alt="Первый веб-сайт в истории">
@@ -139,8 +144,16 @@
               <p>В&nbsp;сравнении с&nbsp;прошлой эпохой сеть тоже стала более централизованной. Веб-гиганты этого периода вроде Google, Facebook и&nbsp;Amazon контролируют облачные сервисы, крупные вычислительные центры и&nbsp;данные о&nbsp;миллионах пользователей. </p>
               <blockquote class="quote quote--decade">Эпоха Web&nbsp;2.0 продолжается с&nbsp;середины двухтысячных, однако представления о&nbsp;следующей стадии развития сети&nbsp;&mdash; Web&nbsp;3.0&nbsp;&mdash; сформировались еще в&nbsp;первые десять лет существования Всемирной паутины.</blockquote>
             </div>
-            <p>Если серверы Amazon выйдут из&nbsp;строя, пострадают бизнесы по&nbsp;всему миру. Наглядным примером стала блокировка сервиса Telegram в&nbsp;России, из-за которой в&nbsp;стране закрыли доступ к&nbsp;800 тысячам IP-адресов Amazon. </p>
-            <p>Контроль Facebook над личными данными сотен миллионов пользователей приводит к&nbsp;крупным утечкам вроде инцидента с&nbsp;компанией Cambridge Analytica в&nbsp;2018&nbsp;году.</p>
+            <p>
+              Если серверы Amazon выйдут из&nbsp;строя, пострадают бизнесы по&nbsp;всему миру. Наглядным примером стала блокировка сервиса Telegram в&nbsp;России, из-за которой в&nbsp;стране
+               <a href="https://meduza.io/news/2018/04/16/roskomnadzor-poruchil-provayderam-zablokirovat-sotni-tysyach-ip-adresov-amazon" target="_blank">закрыли</a> 
+              доступ к&nbsp;800 тысячам IP-адресов Amazon. 
+            </p>
+            <p>
+              Контроль Facebook над личными данными сотен миллионов пользователей приводит к&nbsp;крупным утечкам вроде
+               <a href="https://www.theguardian.com/news/2018/mar/17/cambridge-analytica-facebook-influence-us-election" target="_blank">инцидента</a> 
+              с&nbsp;компанией Cambridge Analytica в&nbsp;2018&nbsp;году.
+            </p>
             <p>Эпоха Web&nbsp;2.0 продолжается с&nbsp;середины двухтысячных, однако представления о&nbsp;следующей стадии развития сети&nbsp;&mdash; Web&nbsp;3.0&nbsp;&mdash; сформировались еще в&nbsp;первые десять лет существования Всемирной паутины.</p>
             <div class="theory_fix">
               <h3 id="historyWeb3" data-magellan-target="historyWeb3">Web&nbsp;3.0</h3>
@@ -148,14 +161,21 @@
                 <figcaption class="theory_figure_caption">Тим Бернерс-Ли, 1990 год</figcaption>
               </figure>
             </div>
-            <p>Первая центральная идея Web&nbsp;3.0&nbsp;&mdash; семантическая паутина (semantic web). Не&nbsp;обошлось без создателя Всемирной паутины Тима Бернерса-Ли, который впервые описал семантическую паутину в&nbsp;1994&nbsp;году. Позднее его статья в&nbsp;Scientific American 2001 года принесла идее популярность в&nbsp;интернет-сообществе, а&nbsp;понятия &laquo;Web&nbsp;3.0&raquo; и&nbsp;&laquo;семантическая паутина&raquo; стали почти взаимозаменяемыми. Сейчас семантическая паутина&nbsp;&mdash; одна из&nbsp;основных технологий в&nbsp;основе новой сети.</p>
+            <p>
+              Первая центральная идея Web&nbsp;3.0&nbsp;&mdash; семантическая паутина (semantic web). Не&nbsp;обошлось без создателя Всемирной паутины Тима Бернерса-Ли, который впервые описал семантическую паутину в&nbsp;1994&nbsp;году. Позднее его
+               <a href="https://www-sop.inria.fr/acacia/cours/essi2006/Scientific%20American_%20Feature%20Article_%20The%20Semantic%20Web_%20May%202001.pdf" target="_blank">статья</a> 
+              в&nbsp;Scientific American 2001 года принесла идее популярность в&nbsp;интернет-сообществе, а&nbsp;понятия &laquo;Web&nbsp;3.0&raquo; и&nbsp;&laquo;семантическая паутина&raquo; стали почти взаимозаменяемыми. Сейчас семантическая паутина&nbsp;&mdash; одна из&nbsp;основных технологий в&nbsp;основе новой сети.
+            </p>
             <p>В&nbsp;2007 году автор современного термина Web&nbsp;2.0 Тим О&rsquo;Рейли разграничил Web&nbsp;3.0 и&nbsp;семантической паутины. О&rsquo;Рейли описывал Web&nbsp;3.0 как взаимодействие между интернетом и&nbsp;офлайн-миром. Это взаимодействие реализуется благодаря датчикам и&nbsp;смарт-устройствам&nbsp;&mdash; тому, что сейчас называют &laquo;интернетом вещей&raquo;. </p>
             <p>О&rsquo;Рейли также привел спорную цитату американского автора Новы Спивака:</p>
             <p>&laquo;Web&nbsp;3.0&nbsp;&mdash; эра, в&nbsp;которую мы&nbsp;будем обновлять бэкенд сети после десятилетия фокуса на&nbsp;фронтэнде (Web&nbsp;2.0 был об&nbsp;AJAX, тегах и&nbsp;других фронтэнд-инновациях в&nbsp;пользовательском опыте).&raquo;</p>
             <p>О&rsquo;Рейли не&nbsp;согласился с&nbsp;тем, что Web&nbsp;2.0&nbsp;&mdash; эпоха фокуса на&nbsp;фронтенде, и&nbsp;настоял на&nbsp;том, что все важные прорывы этого периода происходили в&nbsp;бэкенде. Однако представления Спивака относительно семантической паутины и&nbsp;технологий следующего этапа эволюции сети оправдываются. Он&nbsp;<a href="https://novaspivack.typepad.com/nova_spivacks_weblog/2007/10/web-30----the-a.html" target="_blank">писал</a>, что Web&nbsp;3.0 станет периодом с&nbsp;2010 по&nbsp;2020&nbsp;год, а&nbsp;семантическая паутина будет важной частью экосистемы. В&nbsp;то&nbsp;же время должны произойти и&nbsp;другие технологические прорывы. Этими прорывами стали блокчейн, машинное обучение и&nbsp;уже упомянутый интернет вещей. </p>
             <p>Помимо прогресса технологий, новая эра сети подразумевает социальные и&nbsp;экономические перемены.</p>
             <blockquote class="theory_gradient">&laquo;Web&nbsp;3.0&nbsp;не стоит понимать исключительно как термин из&nbsp;области информационных технологий. Развитие новых способов взаимодействия в&nbsp;онлайне требует от&nbsp;людей еще и&nbsp;социокультурных изменений. Это можно сравнить с&nbsp;тем, как изменились социальные аспекты взаимодействия между людьми в&nbsp;2000-х, когда массовый доступ в&nbsp;интернет и&nbsp;социальные сети распространились на&nbsp;большую часть земного шара, окончательно уничтожив границы владения и&nbsp;сдерживания информации&raquo;,
-              <cite>Александр Иванов, основатель и&nbsp;генеральный директор Waves.</cite>
+              <cite>
+                Александр Иванов, основатель и&nbsp;генеральный директор
+                 <a class="secondary" href="https://wavesplatform.com/" target="_blank">Waves</a>.
+              </cite>
             </blockquote>
             <p>В&nbsp;погоне за&nbsp;меняющимся рынком веб- и&nbsp;ИТ-гиганты инвестируют в&nbsp;решения для новой ниши Web&nbsp;3.0, но&nbsp;у&nbsp;них все равно не&nbsp;будет привычного преимущества перед молодыми проектами. Не&nbsp;все крупные игроки на&nbsp;рынке смогут пережить переход.</p>
             <blockquote class="theory_gradient theory_gradient--unicorns">&laquo;Все гиганты рано или поздно обращают внимание на&nbsp;возникающие технологии. Но&nbsp;технологические революции очень редко начинаются с&nbsp;крупных игроков. Мы&nbsp;ожидаем скорее появления новых единорогов, какими были в&nbsp;свое время Facebook и&nbsp;Amazon, нежели эффективной трансформации старых игроков во&nbsp;что-то новое&raquo;,
@@ -219,18 +239,19 @@
             </div>
             <p>Блокчейн-технологии играют роль связующего элемента экосистемы Web&nbsp;3.0. Распределенный реестр&nbsp;&mdash; основа децентрализованной инфраструктуры сети, в&nbsp;которой веб-приложения могут обмениваться информацией напрямую и&nbsp;все участники равноправны.</p>
             <blockquote class="theory_gradient">&laquo;Web&nbsp;3.0 стоит рассматривать как новый инфраструктурный слой&nbsp;&mdash; децентрализованную сеть&nbsp;&mdash; которая будет развиваться вместе с&nbsp;традиционным централизованными технологиями и&nbsp;рождать гибридные модели&raquo;,
-              <cite>отметил Глеб Сычев, директор по&nbsp;маркетингу Waves.</cite>
+              <cite>
+                отметил Глеб Сычев, директор по&nbsp;маркетингу
+                 <a class="secondary" href="https://wavesplatform.com/" target="_blank">Waves</a>.
+              </cite>
             </blockquote>
             <p>Благодаря децентрализации переход к&nbsp;Web&nbsp;3.0 может решить проблемы непрозрачности веб-сервисов, цензуры в&nbsp;сети и&nbsp;конфиденциальности личных данных. Открытый общественный реестр обеспечивает прозрачную отчетность. Без центральной власти один участник не&nbsp;может навязывать другим решения или получить доступ к&nbsp;чужим зашифрованным данным.</p>
             <blockquote class="theory_gradient">&laquo;Блокчейн решает проблему доверия между большим количеством участников. Гарантом легитимности проводимых операций выступает не&nbsp;централизованная организация, а&nbsp;механизм консенсуса, который известен всем участникам. Развивая эту мысль в&nbsp;контексте интернета, можно сказать, что Web&nbsp;3.0&nbsp;&mdash; это новая прозрачная и&nbsp;децентрализованная версия сети&raquo;,
-              <cite>Александр Иванов, основатель и&nbsp;генеральный директор Waves.</cite>
+              <cite>
+                Александр Иванов, основатель и&nbsp;генеральный директор
+                 <a class="secondary" href="https://wavesplatform.com/" target="_blank">Waves</a>.
+              </cite>
             </blockquote>
-            <p>
-              Блокчейн-инфраструктура для Web&nbsp;3.0 уже строится. Например, проект
-               <a href="https://brave.com/" target="_blank">Brave</a> 
-              предлагает браузер с&nbsp;открытым кодом и&nbsp;новым подходом к&nbsp;онлайн-рекламе, проект
-               <a href="https://storj.io/" target="_blank">Storj</a>&nbsp;&mdash; децентрализованную систему для хранения файлов, а&nbsp;<a href="https://wavesplatform.com/products-keeper" target="_blank">Waves Keeper</a>&nbsp;&mdash; универсальное решение для авторизации.
-            </p>
+            <p>Блокчейн-инфраструктура для Web&nbsp;3.0 уже строится. Например, проект Brave предлагает браузер с&nbsp;открытым кодом и&nbsp;новым подходом к&nbsp;онлайн-рекламе, проект Storj&nbsp;&mdash; децентрализованную систему для хранения файлов, а&nbsp;Waves Keeper&nbsp;&mdash; универсальное решение для авторизации.</p>
           </section>
           <section class="theory_forecasts">
             <h2 id="forecasts" data-magellan-target="forecasts">Футуристические прогнозы</h2>
@@ -257,7 +278,10 @@
             <h2 id="conclusion" data-magellan-target="conclusion">Заключение</h2>
             <p>Переход к&nbsp;новой эре происходит прямо сейчас: для всех основных концепций инфраструктуры Web&nbsp;3.0 существуют прототипы, технологии продолжают развиваться. </p>
             <blockquote class="theory_gradient">&laquo;Идет созревание блокчейн-технологий и&nbsp;искусственного интеллекта. Скоро мы&nbsp;увидим больше инструментов для нативного объединения баз данных и&nbsp;вычислительных решений, библиотеки для соединения разных технологических стеков, кросс-платформенность и&nbsp;стандартизация информации&raquo;,
-              <cite>Александр Иванов, основатель и&nbsp;генеральный директор Waves.</cite>
+              <cite>
+                Александр Иванов, основатель и&nbsp;генеральный директор
+                 <a class="secondary" href="https://wavesplatform.com/" target="_blank">Waves</a>.
+              </cite>
             </blockquote>
             <p>
                Прогресс технологий делает переход к&nbsp;Web&nbsp;3.0&nbsp;возможным. Централизация сети в&nbsp;руках веб-гигантов, систематические нарушения приватности данных, проблемы доступа к&nbsp;контенту и&nbsp;безопасности делают переход к&nbsp;Web&nbsp;3.0&nbsp;неизбежным. </p>
@@ -265,18 +289,21 @@
                На&nbsp;этом заканчивается теоретическая часть спецпроекта с&nbsp;историей и&nbsp;теорией Web&nbsp;3.0. Во&nbsp;второй части мы&nbsp;подробнее рассмотрим существующие решения для экосистемы Web&nbsp;3.0 и&nbsp;их&nbsp;роль в&nbsp;новой сети.</p>
             <div class="theory_buttons"><a class="button small hollow" href="./">На главную</a><a class="button small hollow" href="./practice.html">Часть 2: «Практика»</a></div>
           </section>
-                    <section class="giveaway">
+                    <section class="giveaway" id="giveaway">
                       <h2>Розыгрыш</h2>
-                      <p>
-                        Авторизуйтесь на&nbsp;ForkLog через Waves Keeper, чтобы участвовать в&nbsp;розыгрыше аппаратного криптокошелька
-                         <a href="https://shop.ledger.com/products/ledger-nano-s" target="_blank">Ledger Nano S</a>&nbsp;и&nbsp;1000 токенов waves (~$2500).
-                      </p>
-                      <div class="giveaway_img"><img srcset="./assets/img/giveaway@2x.png 2x, ./assets/img/giveaway.png 1x" src="./assets/img/giveaway.png" alt="Ledger Nano S">
+                      <p>Авторизуйтесь на&nbsp;ForkLog через Waves Keeper, чтобы участвовать в&nbsp;розыгрыше аппаратного криптокошелька Ledger Nano S&nbsp;и&nbsp;1000 токенов waves (~$1300).</p>
+                      <div class="giveaway_ill">
+                        <div class="grid-container">
+                          <div class="giveaway_ill_img"><img srcset="./assets/img/ledger_giveaway@2x.png 2x, ./assets/img/ledger_giveaway.png 1x" src="./assets/img/ledger_giveaway.png" alt="Ledger Nano S"></div>
+                        </div>
                       </div>
                       <p>
-                        Чтобы участвовать в&nbsp;розыгрыше, зарегистрируйтесь на&nbsp;ForkLog через 
-                         <a href="#" target="_blank">Waves Keeper</a> 
-                        в&nbsp;десктоп браузере с&nbsp;ДД.ММ по&nbsp;ДД2.ММ2. Мы&nbsp;выберем и&nbsp;объявим победителя ДД3.ММ3.
+                        Чтобы участвовать в&nbsp;розыгрыше, авторизуйтесь на&nbsp;ForkLog через 
+                         <a href="https://wavesplatform.com/products-keeper" target="_blank">Waves Keeper</a> 
+                        в&nbsp;десктопном браузере с&nbsp;ДД.ММ по&nbsp;ДД2.ММ2. Мы выберем и объявим адрес кошелька победителя ДД3.ММ3. в Telegram-каналах
+                         <a href="https://t.me/forklog" target="_blank">ForkLog</a> 
+                        и
+                         <a href="https://t.me/WavesNewsRU" target="_blank">Waves</a>.
                       </p>
                       <div class="giveaway_token">
                         <div class="giveaway_token_icon">
@@ -300,15 +327,17 @@
                             </defs>
                           </svg>
                         </div>
-                        <p class="giveaway_token_text">Токены WAVES отправятся прямо на&nbsp;счет победителя. Доставку аппаратного кошелька оформим через курьерскую службу по&nbsp;выбору победителя.</p>
+                        <p class="giveaway_token_text">Победителю нужно будет подтвердить владение кошельком. Инструкцию опубликуем в день оглашения результатов розыгрыша. Доставку аппаратного кошелька оформим через курьерскую службу по выбору победителя.</p>
                       </div>
                       <p>Победителя определит блокчейн-рандомайзер от&nbsp;ForkLog и&nbsp;Waves. Это наша новая секретная разработка, мы&nbsp;уже заканчиваем дизайн главной страницы и&nbsp;скоро все опубликуем.</p>
                     </section>
         </article>
         <div class="sponsor">
-          <p class="sponsor_info">Спонсор спецпроекта — <b>Waves</b>
+          <p class="sponsor_info">
+            Спонсор спецпроекта — 
+             <a class="secondary" href="https://wavesplatform.com/" target="_blank">Waves</a> 
             — поставщик блокчейн-решений для экосистемы Web 3.0. Среди разработок компании: платформа для децентрализованных приложений Waves Platform, масштабируемый блокчейн для предприятий Vostok, браузерное приложение-аутентификатор Waves Keeper и язык программирования RIDE.
-          </p><a class="button secondary" href="#">К платформе</a>
+          </p><a class="button secondary" href="https://wavesplatform.com/" target="_blank">К платформе</a>
         </div><a class="up up--theory" href="#top" data-smooth-scroll data-offset="58" data-animation-easing="swing"></a>
         <aside class="aside" data-sticky-container>
           <div class="aside_consists sticky" data-sticky data-margin-top="0" data-anchor="stickyContent">
@@ -335,6 +364,19 @@
         </aside>
       </div>
     </main>
-    <script src="./js/app.min.js?ckcachebust=65660d22b2820691c6ac34a68b0cc9ad"></script>
+    <div class="off-canvas off-canvas--subscribe position-top" id="subcribe" data-off-canvas>
+      <section class="subscribe subscribe--popup">
+        <div class="grid-container subscribe_container">
+          <div class="subscribe_content">
+            <h3 class="subscribe_header">Подпишитесь на рассылку<span>и не пропускайте новые спецпроекты</span></h3>
+            <form class="subscribe_form">
+              <input type="email" name="email" placeholder="Введите E-mail" required="required"/>
+              <button class="button secondary">Подписаться</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </div>
+    <script src="./js/app.min.js?ckcachebust=20e97893df1344f10b15bc6bc6ab2900"></script>
   </body>
 </html>

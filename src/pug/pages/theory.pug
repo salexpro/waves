@@ -3,15 +3,19 @@ extends ../_layout
 block const
     -
         const page = 'theory'
-        const name = 'Web 3.0: Теория'
+        const name = 'теория'
+        const descr = 'История онлайн-мира, децентрализации, причинах перехода к Web 3.0 и технологиях “под капотом” новой сети.'
+
 block content
     #top.grid-container.theory
         article#stickyContent.theory_content
             +promo()(class="promo--theory")
-            h1.h1
-                =name
-            p
-                | Это первая часть спецпроекта о&nbsp;Web&nbsp;3.0&nbsp;&mdash; новом этапе в&nbsp;развитии Всемирной паутины. В&nbsp;этом материале мы&nbsp;поговорим об&nbsp;истории онлайн-мира, децентрализации, причинах перехода к&nbsp;Web&nbsp;3.0 и&nbsp;технологиях &laquo;под капотом&raquo; новой сети. Специалисты из&nbsp;Waves поделились своими мнениями о&nbsp;будущем сети третьей версии.
+            .h1
+                | Web 3.0: Теория
+            h1.p
+                | Это первая часть спецпроекта о&nbsp;Web&nbsp;3.0&nbsp;&mdash; новом этапе в&nbsp;развитии Всемирной паутины.
+            p.p
+                | В&nbsp;этом материале мы&nbsp;поговорим об&nbsp;истории онлайн-мира, децентрализации, причинах перехода к&nbsp;Web&nbsp;3.0 и&nbsp;технологиях &laquo;под капотом&raquo; новой сети. Специалисты из&nbsp;Waves поделились своими мнениями о&nbsp;будущем сети третьей версии.
             include ../sections/theory/_history
             include ../sections/theory/_nowadays
             include ../sections/theory/_forecasts

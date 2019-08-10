@@ -55,6 +55,12 @@ a {
     color: $primary-color;
 }
 
+.p{
+    @extend p;
+    display: inline;
+    font-weight: inherit;
+}
+
 h2, .h2{
     display: table;
     padding-bottom: 10px;

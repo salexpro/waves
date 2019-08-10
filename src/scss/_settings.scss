@@ -169,7 +169,7 @@ $code-background: $light-gray;
 $code-border: 1px solid $medium-gray;
 $code-padding: rem-calc(2 5 1);
 $anchor-color: $primary-color;
-$anchor-color-hover: scale-color($anchor-color, $lightness: -14%);
+$anchor-color-hover: $secondary-color;
 $anchor-text-decoration: none;
 $anchor-text-decoration-hover: none;
 $hr-width: $global-width;
@@ -494,9 +494,9 @@ $meter-fill-bad: $alert-color;
 // --------------
 
 $offcanvas-sizes: ( small: 250px, );
-$offcanvas-vertical-sizes: ( small: 200px, );
-$offcanvas-background: $light-gray;
-$offcanvas-shadow: 0 0 10px rgba($black, 0.7);
+$offcanvas-vertical-sizes: ( small: 100%, );
+$offcanvas-background: linear-gradient(180deg, #0850E1 0%, #2D0096 100%);
+$offcanvas-shadow: none;
 $offcanvas-inner-shadow-size: 20px;
 $offcanvas-inner-shadow-color: rgba($black, 0.25);
 $offcanvas-overlay-zindex: 11;

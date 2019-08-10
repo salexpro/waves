@@ -1,7 +1,9 @@
 extends ../_layout
 
 block const
-    - const page = '/'
+    -
+        const page = '/'
+        const descr = 'Web 3.0 — новый этап в развитии Всемирной паутины. Спецпроект о будущем сети третьей версии.'
 block content
     +promo()(class="promo--main")
     include ../sections/_main

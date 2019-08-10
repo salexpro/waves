@@ -1,4 +1,7 @@
-#menu.off-canvas.position-right.nav_mobile(data-off-canvas data-transition="overlap" data-auto-focus="false")
+//- #menu.off-canvas.position-right.nav_mobile(data-off-canvas data-transition="overlap" data-auto-focus="false")
     +menu('vertical')
     button.close-button(aria-label='Закрыть', type='button', data-close)
         span(aria-hidden='true') ×
+
+#subcribe.off-canvas.off-canvas--subscribe.position-top(data-off-canvas)
+    +subscribe()(class="subscribe--popup")

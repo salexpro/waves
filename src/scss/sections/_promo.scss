@@ -4,6 +4,7 @@
     background-size: cover;
     &--main{
         background-image: url(../assets/img/promos/main@2x.jpg);
+        background-position: top center;
         @include breakpoint(large down){
             background-image: url(../assets/img/promos/main.jpg);
         }
@@ -11,6 +12,9 @@
     &--theory, &--practice{
         position: relative;
         background-image: url(../assets/img/promos/theory@2x.jpg);
+        @include breakpoint(large down){
+            background-image: url(../assets/img/promos/theory.jpg);
+        }
         // cursor: pointer;
         margin-bottom: 50px;
         &:before{
@@ -54,6 +58,9 @@
         padding-top: 20px;
         margin: 0;
         height: 290px;
+        @include breakpoint(large down){
+            background-image: url(../assets/img/promos/practice.jpg);
+        }
         &:before{
             background-image: url(../assets/img/promos/practice_hover@2x.jpg);
             background-size: auto 100%;

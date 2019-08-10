@@ -3,10 +3,12 @@ extends ../_layout
 block const
     -
         const page = 'practice'
-        const name = 'Web 3.0: Практика'
+        const name = 'практика'
+        const descr = 'Существующие Web 3.0 решения, их роль в будущей экосистеме и том, как они работают на практике.'
+
 block content
-    +promo(true)(class="promo--practice")
-    #top.grid-container.practice
+    +promo(true)(id="top" class="promo--practice")
+    .grid-container.practice
         article#stickyContent.practice_content
             include ../sections/practice/_annotation
             include ../sections/practice/_why
@@ -15,6 +17,6 @@ block content
             +giveaway()(class="giveaway--practice")
             include ../sections/practice/_solutions
             include ../sections/practice/_conclusion
-            include ../sections/practice/_subscribe
+            +subscribe(true)(class="subscribe--practice")
         include ../sections/practice/_aside
         include ../sections/_footer

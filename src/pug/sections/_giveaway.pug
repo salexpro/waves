@@ -1,23 +1,26 @@
-mixin giveaway(mod)
-    section.giveaway&attributes(attributes)
+mixin giveaway
+    section#giveaway.giveaway&attributes(attributes)
         h2
             | Розыгрыш
         p
-            | Авторизуйтесь на&nbsp;ForkLog через Waves Keeper, чтобы участвовать в&nbsp;розыгрыше аппаратного криптокошелька
-            | 
-            a(href="https://shop.ledger.com/products/ledger-nano-s" target="_blank") Ledger Nano S
-            | &nbsp;и&nbsp;1000 токенов waves (~$2500).
-        .giveaway_img
-            if mod
-                img(srcset="./assets/img/giveaway@2x.png 2x, ./assets/img/giveaway.png 1x" src="./assets/img/giveaway.png", alt="Ledger Nano S")
-            else
-                img(srcset="./assets/img/bg_giveaway_big@2x.jpg 2x, ./assets/img/bg_giveaway_big.jpg 1x" src="./assets/img/bg_giveaway_big.jpg", alt="Ledger Nano S")
+            | Авторизуйтесь на&nbsp;ForkLog через Waves Keeper, чтобы участвовать в&nbsp;розыгрыше аппаратного криптокошелька Ledger Nano S&nbsp;и&nbsp;1000 токенов waves (~$1300).
+        .giveaway_ill
+            .grid-container
+                .giveaway_ill_img
+                    img(srcset="./assets/img/ledger_giveaway@2x.png 2x, ./assets/img/ledger_giveaway.png 1x" src="./assets/img/ledger_giveaway.png", alt="Ledger Nano S")
         p
-            | Чтобы участвовать в&nbsp;розыгрыше, зарегистрируйтесь на&nbsp;ForkLog через 
+            | Чтобы участвовать в&nbsp;розыгрыше, авторизуйтесь на&nbsp;ForkLog через 
             | 
-            a(href="#" target="_blank") Waves Keeper
+            a(href="https://wavesplatform.com/products-keeper" target="_blank") Waves Keeper
             | 
-            | в&nbsp;десктоп браузере с&nbsp;ДД.ММ по&nbsp;ДД2.ММ2. Мы&nbsp;выберем и&nbsp;объявим победителя ДД3.ММ3.
+            | в&nbsp;десктопном браузере с&nbsp;ДД.ММ по&nbsp;ДД2.ММ2. Мы выберем и объявим адрес кошелька победителя ДД3.ММ3. в Telegram-каналах
+            | 
+            a(href="https://t.me/forklog" target="_blank") ForkLog
+            | 
+            | и
+            | 
+            a(href="https://t.me/WavesNewsRU" target="_blank") Waves
+            | .
 
         .giveaway_token
             .giveaway_token_icon
@@ -36,6 +39,6 @@ mixin giveaway(mod)
                             stop(stop-color='#9F00D5')
                             stop(offset='1', stop-color='#011280')
             p.giveaway_token_text
-                | Токены WAVES отправятся прямо на&nbsp;счет победителя. Доставку аппаратного кошелька оформим через курьерскую службу по&nbsp;выбору победителя.
+                | Победителю нужно будет подтвердить владение кошельком. Инструкцию опубликуем в день оглашения результатов розыгрыша. Доставку аппаратного кошелька оформим через курьерскую службу по выбору победителя.
         p
             | Победителя определит блокчейн-рандомайзер от&nbsp;ForkLog и&nbsp;Waves. Это наша новая секретная разработка, мы&nbsp;уже заканчиваем дизайн главной страницы и&nbsp;скоро все опубликуем.

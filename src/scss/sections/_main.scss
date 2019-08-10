@@ -5,10 +5,7 @@
     margin-top: 36px;
     margin-bottom: 50px;
     &_header{
-        font-size: 35px;
-        letter-spacing: -0.3px;
-        line-height: 0.95;
-        margin-bottom: 38px;
+        line-height: 1.21;
         span{
             color: $primary-color;
         }
@@ -35,6 +32,8 @@
             color: $white;
             line-height: 1.02;
             margin: 0;
+            border: 0;
+            padding: 0;
         }
         .button{
             position: absolute;

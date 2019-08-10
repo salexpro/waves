@@ -1,0 +1,15 @@
+.off-canvas{
+    height: auto;
+    &.is-closed{
+        visibility: visible;
+    }
+    &--subscribe{
+        position: absolute;
+        top: 58px;
+        border-radius: 0 0 5px 5px;
+        background-image: linear-gradient(to bottom, #6a9cff 0%, #3c7dff 53%, #0053f9 100%);
+        max-width: 840px;
+        left: auto;
+        right: calc((100vw - 1000px) / 2);
+    }
+}
