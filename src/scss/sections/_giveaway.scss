@@ -1,4 +1,15 @@
 .giveaway{
+    &--main{
+        @include breakpoint(large){
+            display: none;
+        }
+        .giveaway_ill{
+            margin-right: calc((100vw - 1000px) / -2 - 335px);
+            @include breakpoint(medium down){
+                margin-right: -24px;
+            }
+        }
+    }
     &--practice{
         .giveaway_ill_img::after{
             display: none;
@@ -6,25 +17,33 @@
     }
     &_ill{
         // width: 100vw;
-        margin-top: 45px;
-        margin-bottom: 26px;
-        margin-left: calc((100vw - 1000px) / -2);
-        margin-right: calc((100vw - 1000px) / -2 - 360px);
+        margin: 45px calc((100vw - 1000px) / -2 - 363px) 26px calc((100vw - 1000px) / -2 - 3px);
         text-align: center;
         height: 160px;
         background: linear-gradient(262.8deg, #9F00D5 -29.15%, #011280 119.8%);
         position: relative;
-        overflow: visible;
+        @include breakpoint(medium down){
+            margin: 30px -24px 20px;
+            height: 105px;
+        }
+        @include breakpoint(small down){
+            height: 360px;
+        }
         &::after, &::before{
             content: '';
             position: absolute;
             left: 0;
             width: 100%;
             height: 38px;
-            background-image: url(../assets/img/wave@2x.png);
+            // background-image: url(../assets/img/wave@2x.png);
+            background-image: url(../assets/img/wave.svg);
             background-position: center bottom;
-            background-size: contain;
+            background-size: auto 100%;
             transform: translateY(58%);
+            z-index: 1;
+            @include breakpoint(small down){
+                background-size: 100% 100%;
+            }
         }
         &::after{
             bottom: 0;
@@ -38,6 +57,18 @@
             z-index: 2;
             top: -20px;
             text-align: left;
+            @include breakpoint(medium down){
+                z-index: 5;
+                top: -14px;
+            }
+            @include breakpoint(small down){
+                width: 284px;
+                height: 348px;
+                background-image: url(../assets/img/ledger_mobile@2x.png);
+                background-size: cover;
+                top: -20px;
+                margin: auto;
+            }
             &::after{
                 content: '';
                 position: absolute;
@@ -49,10 +80,33 @@
                 background-image: url(../assets/img/stars.svg);
                 background-size: contain;
                 background-position: center;
+                @include breakpoint(medium down){
+                    right: auto;
+                    left: 64%;
+                    width: 155px;
+                    height: 50px;
+                }
+                @include breakpoint(small down){
+                    display: none;
+                }
+            }
+            img{
+                @include breakpoint(medium down){
+                    max-width: 405px;
+                }
+                @include breakpoint(small down){
+                    display: none;
+                }
             }
         }
         + p{
             padding-left: 31%;
+            @include breakpoint(medium down){
+                padding-left: 20%;
+            }
+            @include breakpoint(small down){
+                padding: 0;
+            }
         }
     }
     &_token{
@@ -61,12 +115,32 @@
         grid-gap: 12px;
         align-items: center;
         margin: 27px 0;
+        @include breakpoint(small down){
+            align-items: start;
+            grid-gap: 10px;
+        }
         &_text{
             margin: 0;
             font-size: 14px;
         }
         svg{
             display: block;
+        }
+    }
+    &_sponsor{
+        overflow: hidden;
+        padding-top: 24px;
+        margin-top: 24px;
+        border-top: 1px solid #e8e8e8;
+        .button{
+            max-width: 240px;
+            float: right;
+            @include breakpoint(small down){
+                float: none;
+                display: table;
+                margin: auto;
+                max-width: 225px;
+            }
         }
     }
 }

@@ -15,5 +15,17 @@ $(document).scroll(() => {
     } else {
         $('.up').removeClass('is_visible');
     }
+});
 
+$('#toggleMenu').click(function() {
+    const header = $('.header');
+    if (header.hasClass('is_opened')){
+        $(this).attr('aria-expanded', false);
+        header.removeClass('is_opened');
+        $('#menu, #subcribe').foundation('close');
+    } else {
+        header.addClass('is_opened');
+        $(this).attr('aria-expanded', true);
+        $('#menu').foundation('open');
+    }
 })

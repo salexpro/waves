@@ -2,19 +2,19 @@
     height: 295px;
     background-position: center;
     background-size: cover;
+    @include breakpoint(medium down){
+        height: 170px;
+    }
+    @include breakpoint(small down){
+        height: 100px;
+    }
     &--main{
         background-image: url(../assets/img/promos/main@2x.jpg);
         background-position: top center;
-        @include breakpoint(large down){
-            background-image: url(../assets/img/promos/main.jpg);
-        }
     }
     &--theory, &--practice{
         position: relative;
         background-image: url(../assets/img/promos/theory@2x.jpg);
-        @include breakpoint(large down){
-            background-image: url(../assets/img/promos/theory.jpg);
-        }
         // cursor: pointer;
         margin-bottom: 50px;
         &:before{

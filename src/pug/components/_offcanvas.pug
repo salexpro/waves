@@ -1,7 +1,15 @@
-//- #menu.off-canvas.position-right.nav_mobile(data-off-canvas data-transition="overlap" data-auto-focus="false")
-    +menu('vertical')
-    button.close-button(aria-label='Закрыть', type='button', data-close)
-        span(aria-hidden='true') ×
+#menu.off-canvas.off-canvas--menu.position-top(data-off-canvas data-transition="overlap" data-auto-focus="false")
+    ul.off-canvas_menu
+        each item in menu
+            li
+                a(href=item.link class=item.link.includes(page) || item.active ? 'is_active' : false)
+                    =item.label
+    .off-canvas_buttons
+        a.button.small.hollow.white(data-toggle="subcribe")
+            | Подписка
+        a.button.small.hollow.white(href="https://forklog.com/sp/" target="_blank")
+            | Все спецпроекты
+    +social(true)(class="social--popup")
 
-#subcribe.off-canvas.off-canvas--subscribe.position-top(data-off-canvas)
+#subcribe.off-canvas.off-canvas--subscribe.position-top(data-off-canvas data-auto-focus="false")
     +subscribe()(class="subscribe--popup")

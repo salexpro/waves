@@ -8,13 +8,15 @@ include components/_icons
 include components/_social
 include components/_promo
 include components/_subscribe
-//- include components/_menu
+include components/_menu
+
+include sections/_giveaway
 
 doctype html
 html(lang="ru")
     include components/_head
     body
-        main.wrap
+        main.wrap.off-canvas-wrapper
             include sections/_header
             block content
                 include sections/_footer

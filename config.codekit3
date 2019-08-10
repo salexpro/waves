@@ -563,6 +563,28 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/src/assets/img/ledger_mobile.png": {
+		"ft": 32768,
+		"iS": 10869,
+		"oA": 0,
+		"oAP": "/build/assets/img/ledger_mobile.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/src/assets/img/ledger_mobile@2x.png": {
+		"ft": 32768,
+		"iS": 23278,
+		"oA": 0,
+		"oAP": "/build/assets/img/ledger_mobile@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"/src/assets/img/logo.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -942,6 +964,16 @@
 		"opt": 1,
 		"oT": 1,
 		"q": 100
+		},
+	"/src/assets/img/wave.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/assets/img/wave.svg",
+		"oF": 0,
+		"opt": 1,
+		"plM": 1103269715967,
+		"prP": 0
 		},
 	"/src/assets/img/wave@2x.png": {
 		"ft": 32768,
@@ -1541,7 +1573,7 @@
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "/src/assets/favicon/android-chrome-512x512.png",
 	"iconImageWasSetByUser": 1,
-	"lastBuiltDate": 587100238.15574706
+	"lastBuiltDate": 587159567.554685
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,

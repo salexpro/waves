@@ -1,4 +1,4 @@
-mixin giveaway
+mixin giveaway(is_main)
     section#giveaway.giveaway&attributes(attributes)
         h2
             | Розыгрыш
@@ -13,7 +13,7 @@ mixin giveaway
             | 
             a(href="https://wavesplatform.com/products-keeper" target="_blank") Waves Keeper
             | 
-            | в&nbsp;десктопном браузере с&nbsp;ДД.ММ по&nbsp;ДД2.ММ2. Мы выберем и объявим адрес кошелька победителя ДД3.ММ3. в Telegram-каналах
+            | в&nbsp;десктопном браузере с&nbsp;ДД.ММ по&nbsp;ДД2.ММ2. Мы объявим адрес кошелька победителя ДД3.ММ3. в Telegram-каналах
             | 
             a(href="https://t.me/forklog" target="_blank") ForkLog
             | 
@@ -41,4 +41,14 @@ mixin giveaway
             p.giveaway_token_text
                 | Победителю нужно будет подтвердить владение кошельком. Инструкцию опубликуем в день оглашения результатов розыгрыша. Доставку аппаратного кошелька оформим через курьерскую службу по выбору победителя.
         p
-            | Победителя определит блокчейн-рандомайзер от&nbsp;ForkLog и&nbsp;Waves. Это наша новая секретная разработка, мы&nbsp;уже заканчиваем дизайн главной страницы и&nbsp;скоро все опубликуем.
+            | Победителя определит блокчейн-рандомайзер от&nbsp;ForkLog и&nbsp;Waves. Это наша новая секретная разработка, мы&nbsp;уже заканчиваем страницы и&nbsp;скоро все опубликуем.
+        if is_main
+            .giveaway_sponsor
+                p
+                    | Спонсор спецпроекта — 
+                    |
+                    a(href="https://wavesplatform.com/" target="_blank") Waves
+                    | 
+                    | — поставщик блокчейн-решений для экосистемы Web 3.0. Среди разработок компании: платформа для децентрализованных приложений Waves Platform, масштабируемый блокчейн для предприятий Vostok, браузерное приложение-аутентификатор Waves Keeper и язык программирования RIDE.
+                a.button.primary(href="https://wavesplatform.com/" target="_blank")
+                    | К платформе

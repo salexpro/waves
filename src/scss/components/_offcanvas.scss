@@ -1,15 +1,63 @@
 .off-canvas{
     height: auto;
+    top: 54px;
     &.is-closed{
         visibility: visible;
+        transition: 500ms;
+        &:not(.is-open){
+            opacity: 0;
+        }
+    }
+    &--menu{
+        position: absolute;
+        text-align: right;
+        @include breakpoint(small down){
+            text-align: left;
+        }
     }
     &--subscribe{
         position: absolute;
-        top: 58px;
         border-radius: 0 0 5px 5px;
         background-image: linear-gradient(to bottom, #6a9cff 0%, #3c7dff 53%, #0053f9 100%);
         max-width: 840px;
         left: auto;
         right: calc((100vw - 1000px) / 2);
+        @include breakpoint(large down){
+            right: 0;
+        }
+    }
+    &_menu{
+        margin: 0;
+        font-size: 14px;
+        // border-top: 1px solid #c6ccf2;
+        padding: 12px 24px;
+        line-height: 1;
+        list-style: none;
+        @include breakpoint(small down){
+            padding: 12px 16px;
+        }
+        li + li{
+            margin-top: 2px;
+        }
+        a {
+            display: block;
+            font-weight: 400;
+            padding: 10px 0;
+            color: $white;
+            &:hover, &:target, &.is_active{
+                color: $secondary-color;
+            }
+        }
+    }
+    &_buttons{
+        border-top: 1px solid #c6ccf2;
+        padding: 25px 24px;
+        @include breakpoint(small down){
+            padding: 25px 16px;
+            text-align: center;
+        }
+        .button + .button{
+            margin-left: 10px;
+        }
     }
 }

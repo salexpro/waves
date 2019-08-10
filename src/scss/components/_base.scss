@@ -53,6 +53,15 @@ a {
     letter-spacing: -0.45px;
     text-shadow: -3px 0 0 #e9a520;
     color: $primary-color;
+    @include breakpoint(small down){
+        text-shadow: 0 3px 0 #e9a520;
+    }
+}
+
+p{
+    @include breakpoint(medium down){
+        font-size: 14px;
+    }
 }
 
 .p{

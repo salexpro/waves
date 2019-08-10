@@ -4,6 +4,13 @@
     grid-gap: 32px;
     margin-top: 36px;
     margin-bottom: 50px;
+    @include breakpoint(medium down){
+        margin: 20px 0 30px;
+        display: block;
+    }
+    @include breakpoint(small down){
+        margin: 15px 0 20px;
+    }
     &_header{
         line-height: 1.21;
         span{
@@ -15,6 +22,16 @@
         grid-template-columns: 1fr 1fr;
         grid-gap: 20px;
         margin-top: 34px;
+        @include breakpoint(medium down){
+            max-width: 624px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        @include breakpoint(small down){
+            margin: 30px 4px 0;
+            padding-bottom: 20px;
+            grid-gap: 12px;
+        }
     }
     &_section{
         position: relative;
@@ -34,16 +51,25 @@
             margin: 0;
             border: 0;
             padding: 0;
+            @include breakpoint(small down){
+                font-size: 18px;
+            }
         }
         .button{
             position: absolute;
             right: -12px;
             bottom: -12px;
+            @include breakpoint(small down){
+                bottom: -20px;
+            }
         }
     }
     &_aside{
         padding-left: 28px;
         border-left: 1px solid #e8e8e8;
+        @include breakpoint(medium down){
+            display: none;
+        }
     }
     &_giveaway{
         padding-bottom: 20px;

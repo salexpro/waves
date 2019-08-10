@@ -140,14 +140,22 @@ $header-lineheight: 1;
 $header-margin-bottom: 0.5rem;
 $header-styles: (
   small: (
-    'h1': ('fs': 24),
-    'h2': ('fs': 20),
+    'h1': ('fs': 34, 'mb': 15),
+    'h2': ('fs': 24, 'mb': 20, 'mt': 28),
     'h3': ('fs': 19),
     'h4': ('fs': 18),
     'h5': ('fs': 17),
     'h6': ('fs': 16),
   ),
   medium: (
+    'h1': ('fs': 34, 'mb': 24),
+    'h2': ('fs': 24, 'mb': 24, 'mt': 30),
+    'h3': ('fs': 21, 'mb': 22, 'mt': 30),
+    'h4': ('fs': 25),
+    'h5': ('fs': 20),
+    'h6': ('fs': 16),
+  ),
+  large: (
     'h1': ('fs': 64, 'mb': 35),
     'h2': ('fs': 24, 'mb': 24, 'mt': 30),
     'h3': ('fs': 21, 'mb': 22, 'mt': 30),
@@ -160,7 +168,7 @@ $header-text-rendering: optimizeLegibility;
 $small-font-size: 80%;
 $header-small-font-color: $medium-gray;
 $paragraph-lineheight: 1.6;
-$paragraph-margin-bottom: 1rem;
+$paragraph-margin-bottom: 1em;
 $paragraph-text-rendering: optimizeLegibility;
 $code-color: $black;
 $code-font-family: $font-family-monospace;
@@ -495,7 +503,7 @@ $meter-fill-bad: $alert-color;
 
 $offcanvas-sizes: ( small: 250px, );
 $offcanvas-vertical-sizes: ( small: 100%, );
-$offcanvas-background: linear-gradient(180deg, #0850E1 0%, #2D0096 100%);
+$offcanvas-background: linear-gradient(180deg, #0C48DA 0%, #2E0197 100%);
 $offcanvas-shadow: none;
 $offcanvas-inner-shadow-size: 20px;
 $offcanvas-inner-shadow-color: rgba($black, 0.25);
@@ -855,8 +863,9 @@ $xy-grid: true;
 $grid-container: $global-width;
 $grid-columns: 12;
 $grid-margin-gutters: (
-  small: 20px,
-  medium: 30px
+  small: 32px,
+  medium: 48px,
+  large: 30px
 );
 $grid-padding-gutters: $grid-margin-gutters;
 $block-grid-max: 8;
