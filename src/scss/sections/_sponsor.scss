@@ -8,11 +8,30 @@
     grid-template-columns: auto 330px;
     grid-gap: 30px;
     color: $white;
+    @include breakpoint(medium down){
+        margin: 0 -24px;
+        padding: 25px 24px;
+        border-radius: 0;
+        grid-template-columns: auto 1fr;
+    }
+    @include breakpoint(small down){
+        margin: 0 -16px;
+        padding: 20px 16px;
+        grid-template-columns: auto;
+        grid-gap: 18px;
+    }
     &_info{
         margin: 0;
     }
     .button{
         place-self: center;
         max-width: 240px;
+        @include breakpoint(medium down){
+            width: 240px;
+        }
+        @include breakpoint(small down){
+            width: 100%;
+            max-width: 290px;
+        }
     }
 }

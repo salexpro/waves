@@ -25,6 +25,9 @@
     transition: 300ms;
     opacity: 0;
     visibility: hidden;
+    @include breakpoint(medium down){
+        display: none;
+    }
     &.is_visible{
         opacity: 1;
         visibility: visible;

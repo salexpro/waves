@@ -17,6 +17,14 @@
         background-image: url(../assets/img/promos/theory@2x.jpg);
         // cursor: pointer;
         margin-bottom: 50px;
+        @include breakpoint(medium down){
+            height: 230px;
+            margin-bottom: 26px;
+        }
+        @include breakpoint(small down){
+            height: 100px;
+            margin: 0 -16px 16px;
+        }
         &:before{
             content: '';
             position: absolute;
@@ -43,6 +51,14 @@
             background-image: url(../assets/img/finger_tap.svg);
             background-size: contain;
             z-index: 1;
+            @include breakpoint(medium down){
+                width: 120px;
+                height: 120px;
+            }
+            @include breakpoint(small down){
+                width: 70px;
+                height: 70px;
+            }
         }
         &:hover, &:focus{
             &::before{

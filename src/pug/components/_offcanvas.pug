@@ -1,4 +1,17 @@
 #menu.off-canvas.off-canvas--menu.position-top(data-off-canvas data-transition="overlap" data-auto-focus="false")
+    if page == 'theory'
+        ul.off-canvas_menu.off-canvas_menu--top(data-magellan data-animation-easing="swing" data-close)
+            li
+                p Содержание
+            li
+                a(href='#history') Краткая история сети
+            li
+                a(href='#nowadays') Web 3.0 сегодня
+            li
+                a(href='#forecasts') Футуристические прогнозы
+            li
+                a(href='#conclusion') Заключение
+
     ul.off-canvas_menu
         each item in menu
             li

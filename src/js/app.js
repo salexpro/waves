@@ -17,15 +17,12 @@ $(document).scroll(() => {
     }
 });
 
-$('#toggleMenu').click(function() {
-    const header = $('.header');
-    if (header.hasClass('is_opened')){
-        $(this).attr('aria-expanded', false);
-        header.removeClass('is_opened');
-        $('#menu, #subcribe').foundation('close');
-    } else {
-        header.addClass('is_opened');
+$('#menu')
+    .on('opened.zf.offcanvas', () => {
+        $('.header').addClass('is_opened');
         $(this).attr('aria-expanded', true);
-        $('#menu').foundation('open');
-    }
-})
+    })
+    .on('closed.zf.offcanvas', () => {
+        $('.header').removeClass('is_opened');
+        $('#menu, #subcribe').foundation('close');
+    })

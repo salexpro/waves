@@ -33,6 +33,10 @@
         padding: 12px 24px;
         line-height: 1;
         list-style: none;
+        color: $white;
+        &--top{
+            border-bottom: 1px solid #c6ccf2;
+        }
         @include breakpoint(small down){
             padding: 12px 16px;
         }
@@ -47,6 +51,12 @@
             &:hover, &:target, &.is_active{
                 color: $secondary-color;
             }
+        }
+        p{
+            padding: 10px 0;
+            font-weight: 600;
+            margin: 0;
+            line-height: 1;
         }
     }
     &_buttons{

@@ -1,5 +1,8 @@
 .aside{
     grid-area: aside;
+    @include breakpoint(medium down){
+        display: none;
+    }
     &--practice{
         .aside_consists{
             padding-top: 18px;

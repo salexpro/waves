@@ -7,11 +7,22 @@
     font-weight: 500;
     line-height: 1.25;
     width: calc(1000px - 640px - 60px);
+    margin: 0;
+    @include breakpoint(medium down){
+        font-size: 18px;
+    }
     &::before{
+        content: '';
         display: block;
-        content: url(data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20width%3D%2236px%22%20height%3D%2240px%22%3E%3Cpath%20fill%3D%22rgb%28247%2C%20147%2C%2030%29%22%20fill-rule%3D%22evenodd%22%20d%3D%22M13.019%2C0.853%20L0.275%2C0.853%20L0.275%2C39.232%20L10.456%2C39.232%20L13.019%2C10.887%20L13.019%2C0.853%20ZM35.065%2C0.853%20L22.321%2C0.853%20L22.321%2C39.232%20L32.502%2C39.232%20L35.065%2C10.887%20L35.065%2C0.853%20Z%22%2F%3E%3C%2Fsvg%3E);
+        background-image: url(data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20width%3D%2236px%22%20height%3D%2240px%22%3E%3Cpath%20fill%3D%22rgb%28247%2C%20147%2C%2030%29%22%20fill-rule%3D%22evenodd%22%20d%3D%22M13.019%2C0.853%20L0.275%2C0.853%20L0.275%2C39.232%20L10.456%2C39.232%20L13.019%2C10.887%20L13.019%2C0.853%20ZM35.065%2C0.853%20L22.321%2C0.853%20L22.321%2C39.232%20L32.502%2C39.232%20L35.065%2C10.887%20L35.065%2C0.853%20Z%22%2F%3E%3C%2Fsvg%3E);
         height: 40px;
         margin-bottom: 20px;
+        background-size: auto 100%;
+        background-repeat: no-repeat;
+        @include breakpoint(medium down){
+            height: 26px;
+            margin-bottom: 24px;
+        }
     }
     &--concepts{
         left: calc(100% + 30px);
@@ -21,6 +32,11 @@
     }
     &--site{
         top: 212px;
+        @include breakpoint(medium down){
+            top: auto;
+            bottom: 6.4%;
+            left: calc(100% + 40px);
+        }
     }
     &--innovations{
         top: -105px;

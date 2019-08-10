@@ -54,7 +54,7 @@ a {
     text-shadow: -3px 0 0 #e9a520;
     color: $primary-color;
     @include breakpoint(small down){
-        text-shadow: 0 3px 0 #e9a520;
+        text-shadow: -1px 2px 0 #e9a520;
     }
 }
 
@@ -91,6 +91,9 @@ cite{
 
 dd{
     margin-bottom: 1em;
+    @include breakpoint(small down){
+        font-size: 14px;
+    }
 }
 
 svg{
