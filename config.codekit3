@@ -922,6 +922,50 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/src/assets/img/unicorn_globe_mobile.png": {
+		"ft": 32768,
+		"iS": 56017,
+		"oA": 0,
+		"oAP": "/build/assets/img/unicorn_globe_mobile.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/src/assets/img/unicorn_globe_mobile@2x.png": {
+		"ft": 32768,
+		"iS": 140871,
+		"oA": 0,
+		"oAP": "/build/assets/img/unicorn_globe_mobile@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/src/assets/img/unicorn_mobile.png": {
+		"ft": 32768,
+		"iS": 56196,
+		"oA": 0,
+		"oAP": "/build/assets/img/unicorn_mobile.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/src/assets/img/unicorn_mobile@2x.png": {
+		"ft": 32768,
+		"iS": 145478,
+		"oA": 0,
+		"oAP": "/build/assets/img/unicorn_mobile@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"/src/assets/img/unicorns.png": {
 		"ft": 32768,
 		"iS": 9920,
@@ -1573,7 +1617,7 @@
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "/src/assets/favicon/android-chrome-512x512.png",
 	"iconImageWasSetByUser": 1,
-	"lastBuiltDate": 587172436.23944998
+	"lastBuiltDate": 587186795.20232105
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,

@@ -5,10 +5,25 @@
         'content aside'
         'footer footer';
     grid-column-gap: 30px;
+    @include breakpoint(medium down){
+        display: block;
+    }
     &_annotation{
         display: flex;
+        align-items: flex-start;
+        @include breakpoint(small down){
+            display: block;
+        }
         &_text{
             padding-top: 18px;
+            @include breakpoint(small down){
+                padding-top: 10px;
+            }
+            .h1{
+                @include breakpoint(large){
+                    display: none;
+                }
+            }
         }
         &_gradient{
             position: relative;
@@ -18,6 +33,14 @@
             padding: 18px 30px;
             color: $white;
             margin: 0 -30px 0 20px;
+            @include breakpoint(medium down){
+                margin: 0 0 0 20px;
+                padding: 18px 16px;
+                flex: 0 0 320px;
+            }
+            @include breakpoint(small down){
+                margin: 30px -16px 0;
+            }
             &::after{
                 content: '';
                 position: absolute;
@@ -27,18 +50,35 @@
                 border-left: 1px solid #c6ccf2;
                 z-index: -1;
                 box-shadow: 13px -44px 0 #c6ccf2;
+                @include breakpoint(medium down){
+                    display: none;
+                }
+            }
+        }
+    }
+
+    &_why{
+        @include breakpoint(medium only){
+            > h2, > p {
+                max-width: calc(100% - 350px);
             }
         }
     }
 
     &_cta{
         background-image: linear-gradient(0deg, #0850e1 0%, #2d0096 74%);
-        margin-left: calc((100vw - 1000px) / -2);
-        margin-right: calc((100vw - 1000px) / -2 - 360px);
+        margin-left: calc((100vw - 1000px) / -2 - 3px);
+        margin-right: calc((100vw - 1000px) / -2 - 363px);
         font-size: 14px;
         color: $white;
         position: relative;
         margin-top: 25px;
+        @include breakpoint(medium down){
+            margin: 30px -24px 45px;
+        }
+        @include breakpoint(small down){
+            margin: 200px -16px 40px;
+        }
         &::after {
             content: '';
             position: absolute;
@@ -47,9 +87,12 @@
             width: 100%;
             height: 38px;
             transform: translateY(-58%) scale(-1, -1);
-            background-image: url(../assets/img/wave@2x.png);
+            background-image: url(../assets/img/wave.svg);
+            background-size: auto 100%;
             background-position: center bottom;
-            background-size: contain;
+            @include breakpoint(medium down){
+                background-size: 100% 100%;
+            }
         }
         &_container{
             min-height: 184px;
@@ -57,6 +100,15 @@
             align-items: center;
             position: relative;
             width: 100%;
+            @include breakpoint(medium down){
+                min-height: 214px;
+                padding-top: 66px;
+                align-items: flex-start;
+            }
+            @include breakpoint(small down){
+                padding-top: 186px;
+                padding-bottom: 40px;
+            }
             &::before{
                 content: '';
                 position: absolute;
@@ -71,6 +123,13 @@
                 background-position: center;
                 background-repeat: no-repeat;
                 z-index: 5;
+                @include breakpoint(medium down){
+                    right: auto;
+                    left: -93px;
+                }
+                @include breakpoint(small down){
+                    display: none;
+                }
             }
         }
         &_img{
@@ -80,11 +139,35 @@
             width: 100%;
             max-width: 620px;
             z-index: 2;
+            @include breakpoint(medium down){
+                bottom: calc(100% - 46px);
+                right: 0;
+                width: auto;
+            }
+            @include breakpoint(small down){
+                bottom: calc(100% - 160px);
+            }
         }
         &_text{
             margin: 0;
             max-width: 640px;
             padding-left: 32px;
+            @include breakpoint(medium down){
+                padding-left: 116px;
+                max-width: none;
+            }
+            @include breakpoint(small down){
+                padding-left: 0;
+            }
+        }
+    }
+
+    &_how{
+        @include breakpoint(medium only){
+            position: relative;
+            > h2, > p {
+                max-width: calc(100% - 360px);
+            }
         }
     }
 
@@ -93,6 +176,28 @@
         margin: 30px 0;
         margin-right: -30px;
         position: relative;
+        @include breakpoint(medium only){
+            position: absolute;
+            right: 0;
+            &--top{
+                top: 60px;
+            }
+            &--bottom{
+                top: 401px;
+            }
+            &--solutions{
+                // top: 180px;
+                margin-top: 20px;
+            }
+            padding: 20px 15px;
+            margin: 0;
+            float: right;
+            max-width: 300px;
+        }
+        @include breakpoint(small down){
+            padding: 15px;
+            margin-right: 0;
+        }
         &::before{
             content: '';
             border-radius: 12px;
@@ -123,6 +228,9 @@
                 top: calc(100% - 57px);
                 height: 166px;
                 border-left: 1px solid #8704b3;
+                @include breakpoint(medium down){
+                    display: none;
+                }
             }
         }
     }
@@ -130,10 +238,18 @@
         background-image: url(../assets/img/bg_extension@2x.jpg);
         background-size: contain;
         background-position: center bottom;
-        margin: 40px calc((100vw - 1000px) / -2 - 360px) 0 calc((100vw - 1000px) / -2);
+        margin: 40px calc((100vw - 1000px) / -2 - 363px) 0 calc((100vw - 1000px) / -2 - 3px);
         color: $white;
         position: relative;
         background-image: linear-gradient(180deg, #0850e1 0%, #2d0096 61%);
+        @include breakpoint(medium down){
+            clear: both;
+            margin: 46% -24px 0;
+        }
+        @include breakpoint(small down){
+            padding-top: 135px;
+            margin: 125px -16px 0;
+        }
         &::after {
             content: '';
             position: absolute;
@@ -141,11 +257,14 @@
             left: 0;
             width: 100%;
             height: 38px;
-            background-image: url(../assets/img/wave@2x.png);
+            background-image: url(../assets/img/wave.svg);
             background-position: center bottom;
-            background-size: contain;
+            background-size: auto 100%;
             transform: translateY(58%);
             z-index: 3;
+            @include breakpoint(medium down){
+                background-size: 100% 100%;
+            }
         }
         &_container{
             min-height: 254px;
@@ -155,6 +274,14 @@
             // padding-top: 52px;
             position: relative;
             width: 100%;
+            @include breakpoint(medium down){
+                // padding-top: 42px;
+                // padding-bottom: 58px;
+                // min-height: auto;
+            }
+            @include breakpoint(small down){
+                flex-direction: column;
+            }
             &::before{
                 content: '';
                 position: absolute;
@@ -168,6 +295,9 @@
                 background-size: contain;
                 background-position: center;
                 z-index: 5;
+                @include breakpoint(medium down){
+                    display: none;
+                }
             }
             &::after{
                 content: '';
@@ -177,8 +307,22 @@
                 width: 363px;
                 height: 291px;
                 background-image: url(../assets/img/unicorn_beams@2x.png);
-                background-size: cover;
+                background-size: contain;
                 z-index: 2;
+                @include breakpoint(medium down){
+                    top: auto;
+                    bottom: 100%;
+                    left: 24px;
+                    width: 392px;
+                    height: 314px;
+                    background-size: cover;
+                }
+                @include breakpoint(small down){
+                    left: calc(50% - 160px);
+                    width: 100%;
+                    max-width: 320px;
+                    height: 250px;
+                }
             }
         }
         &_browser{
@@ -191,12 +335,31 @@
             background-image: url(../assets/img/browser@2x.jpg);
             background-size: contain;
             background-repeat: no-repeat;
+            @include breakpoint(medium down){
+                background: 0;
+                height: auto;
+                max-width: 320px;
+                left: auto;
+                right: 24px;
+                top: 12px;
+            }
+            @include breakpoint(small down){
+                position: static;
+                order: -1;
+            }
         }
         &_img{
             position: relative;
             display: table;
             margin-left: 33px;
             margin-top: 40px;
+            @include breakpoint(medium down){
+                margin: 0;
+            }
+            @include breakpoint(small down){
+                margin-left: -16px;
+                margin-right: -16px;
+            }
             &::after{
                 content: '';
                 position: absolute;
@@ -207,6 +370,9 @@
                 background-image: url(../assets/img/beams@2x.png);
                 background-size: cover;
                 z-index: 3;
+                @include breakpoint(medium down){
+                    display: none;
+                }
             }
             img{
                 position: relative;
@@ -218,6 +384,31 @@
         &_text{
             margin: 0;
             max-width: 340px;
+            @include breakpoint(medium only){
+                max-width: none;
+                width: calc(100% - 360px);
+            }
+            @include breakpoint(small down){
+                padding-top: 42px;
+                padding-bottom: 35px;
+                max-width: none;
+            }
+        }
+    }
+
+    &_solutions{
+        @include breakpoint(medium only){
+            position: relative;
+            padding-right: 330px;
+        }
+    }
+
+    &_conclusion{
+        @include breakpoint(medium only){
+            // position: relative;
+            > h2, > p {
+                max-width: calc(100% - 360px);
+            }
         }
     }
 }

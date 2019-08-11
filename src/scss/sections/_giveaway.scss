@@ -11,8 +11,32 @@
         }
     }
     &--practice{
-        .giveaway_ill_img::after{
-            display: none;
+        @include breakpoint(medium only){
+            h2 + p{
+                max-width: calc(100% - 320px - 40px);
+            }
+        }
+        .giveaway_ill{
+            @include breakpoint(medium down){
+                margin-bottom: 25px;
+                height: 165px;
+                @include breakpoint(small down){
+                    height: 370px;
+                }
+                &::after, &::before{
+                    background-size: 100% 100%;
+                }
+            }
+            &_img{
+                @include breakpoint(medium down){
+                    img{
+                        max-width: 100%;
+                    }
+                }
+                &::after{
+                    display: none;
+                }
+            }
         }
     }
     &_ill{
@@ -62,12 +86,9 @@
                 top: -14px;
             }
             @include breakpoint(small down){
-                width: 284px;
-                height: 348px;
-                background-image: url(../assets/img/ledger_mobile@2x.png);
-                background-size: cover;
                 top: -20px;
                 margin: auto;
+                max-width: 284px;
             }
             &::after{
                 content: '';
@@ -93,9 +114,6 @@
             img{
                 @include breakpoint(medium down){
                     max-width: 405px;
-                }
-                @include breakpoint(small down){
-                    display: none;
                 }
             }
         }

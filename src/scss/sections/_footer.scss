@@ -4,6 +4,15 @@
     padding-bottom: 36px;
     display: flex;
     align-items: flex-end;
+    @include breakpoint(medium down){
+        padding-top: 37px;
+        padding-bottom: 40px;
+    }
+    @include breakpoint(small down){
+        display: block;
+        padding-top: 30px;
+        padding-bottom: 26px;
+    }
     &_list{
         margin: 0;
         list-style: none;

@@ -11,6 +11,18 @@
                 a(href='#forecasts') Футуристические прогнозы
             li
                 a(href='#conclusion') Заключение
+    if page == 'practice'
+        ul.off-canvas_menu.off-canvas_menu--top(data-magellan data-animation-easing="swing" data-close)
+            li
+                p Содержание
+            li
+                a(href='#why') Почему Waves Keeper и&nbsp;при чем здесь Web&nbsp;3.0
+            li
+                a(href='#how') Как работает Waves Keeper
+            li
+                a(href='#solutions') Другие решения Waves
+            li
+                a(href='#conclusion') Заключение
 
     ul.off-canvas_menu
         each item in menu
