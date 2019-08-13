@@ -672,7 +672,7 @@
 		},
 	"/src/assets/img/promos/practice.jpg": {
 		"ft": 16384,
-		"iS": 162141,
+		"iS": 223533,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/build/assets/img/promos/practice.jpg",
@@ -681,9 +681,20 @@
 		"opt": 1,
 		"q": 100
 		},
+	"/src/assets/img/promos/practice.png": {
+		"ft": 32768,
+		"iS": 938148,
+		"oA": 0,
+		"oAP": "/build/assets/img/promos/practice.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"/src/assets/img/promos/practice@2x.jpg": {
 		"ft": 16384,
-		"iS": 514006,
+		"iS": 545552,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/build/assets/img/promos/practice@2x.jpg",
@@ -802,6 +813,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/src/assets/img/stars.png": {
+		"ft": 32768,
+		"iS": 1192,
+		"oA": 0,
+		"oAP": "/build/assets/img/stars.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"/src/assets/img/stars.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -811,6 +833,17 @@
 		"opt": 1,
 		"plM": 1103269715967,
 		"prP": 0
+		},
+	"/src/assets/img/stars@2x.png": {
+		"ft": 32768,
+		"iS": 2229,
+		"oA": 0,
+		"oAP": "/build/assets/img/stars@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
 		},
 	"/src/assets/img/subject_predicate_object.png": {
 		"ft": 32768,
@@ -1617,7 +1650,7 @@
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "/src/assets/favicon/android-chrome-512x512.png",
 	"iconImageWasSetByUser": 1,
-	"lastBuiltDate": 587186795.20232105
+	"lastBuiltDate": 587375277.10390794
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
